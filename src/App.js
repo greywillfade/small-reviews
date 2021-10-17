@@ -6,11 +6,21 @@ import { Reviews } from "./Reviews";
 function App() {
   return (
     <div className="App">
+
+      <div className="shape-blob"></div>
+      <div className="shape-blob one"></div>
+      <div className="shape-blob two"></div>
+      <div className="shape-blob three"></div>
+
       <div className="container">
+
+      
 
         <header>
             <h1 className="logo">Small reviews</h1>
         </header>
+
+        
 
         <div className="container-inner">
           <Reviews />
