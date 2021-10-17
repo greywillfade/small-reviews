@@ -1328,9 +1328,9 @@ nav .sublink-2:before {
 }
 
 footer {
-	background: var(--footer-back-color);
+	/*background: var(--footer-back-color);*/
 	color: var(--footer-fore-color);
-	border-top: .0625rem solid var(--footer-border-color);
+	/*border-top: .0625rem solid var(--footer-border-color);*/
 	padding: calc(2 * var(--universal-padding)) var(--universal-padding);
 	font-size: .875rem
 }
