@@ -2,26 +2,76 @@
 :root {
 	--fore-color: #111;
 	--secondary-fore-color: #444;
-	--back-color: #f8f8f8;
+	--back-color: rgb(253, 253, 253);
 	--secondary-back-color: #f0f0f0;
 	--blockquote-color: #f57c00;
 	--pre-color: #1565c0;
 	--border-color: #aaa;
 	--secondary-border-color: #ddd;
 
-  --feat-color-1:#cdb4db;
-  --feat-color-2:#ffc8dd;
-  --feat-color-3:#ffafcc;
-  --feat-color-4:#bde0fe;
-  --feat-color-5:#a2d2ff;
+	--feat-color-1:#cdb4db;
+	--feat-color-2:#ffc8dd;
+	--feat-color-3:#ffafcc;
+	--feat-color-4:#bde0fe;
+	--feat-color-5:#a2d2ff;
 
 	--heading-ratio: 1.19;
 	--universal-margin: 0.5rem;
 	--universal-padding: 0.5rem;
 	--universal-border-radius: 0.125rem;
 	--a-link-color: #0277bd;
-	--a-visited-color: #01579b
+	--a-visited-color: #01579b;
+
+	--primary-color-h: 156;
+	--primary-color-s: 50%;
+	--primary-color-l: 50%;
+	--primary-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l));
+
+	
+	/*   lighten */
+	--primary-color--light: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 15%));
+	
+	/*   darken */
+	--primary-color--dark: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) - 15%));
+	
+	/*   complement */
+	--primary-color--complement: hsl(calc(var(--primary-color-h) + 180), var(--primary-color-s), var(--primary-color-l));
+	
+	/*   triad */
+	--primary-color--triada-1: hsl(calc(var(--primary-color-h) + 120), var(--primary-color-s), var(--primary-color-l));
+	--primary-color--triada-2: hsl(calc(var(--primary-color-h) + 240), var(--primary-color-s), var(--primary-color-l));
+	
+	/*   analogous */
+	--degree: 15;
+	--primary-color--analogous-1: hsl(calc(var(--primary-color-h) + var(--degree)), var(--primary-color-s), var(--primary-color-l));
+	--primary-color--analogous-2: hsl(calc(var(--primary-color-h) - var(--degree)), var(--primary-color-s), var(--primary-color-l));
 }
+
+	.primary-color {
+	background: var(--primary-color)
+	}
+	.primary-color--light {
+	background: var(--primary-color--light)
+	}
+	.primary-color--dark {
+	background: var(--primary-color--dark)
+	}
+	.primary-color--complement {
+	background: var(--primary-color--complement)
+	}
+	.primary-color--triada1 {
+	background: var(--primary-color--triada-1)
+	}
+	.primary-color--triada2 {
+	background: var(--primary-color--triada-2)
+	}
+	.primary-color--analogous1 {
+	background: var(--primary-color--analogous-1)
+	}
+	.primary-color--analogous2 {
+	background: var(--primary-color--analogous-2)
+	}
+
 
 html {
 	font-size: 16px
@@ -1167,13 +1217,13 @@ button.large,
 
 header {
 	height: 3.1875rem;
-	background: var(--header-back-color);
+	/*background: var(--header-back-color);*/
 	color: var(--header-fore-color);
-	border-bottom: .0625rem solid var(--header-border-color);
-	padding: calc(var(--universal-padding)/4) 0;
+	/*border-bottom: .0625rem solid var(--header-border-color);*/
+	/*padding: calc(var(--universal-padding)/4) 0;*/
 	white-space: nowrap;
-	overflow-x: auto;
-	overflow-y: hidden
+	/*overflow-x: auto;
+	overflow-y: hidden*/
 }
 
 header.row {
@@ -1184,7 +1234,10 @@ header .logo {
 	color: var(--header-fore-color);
 	font-size: 1.75rem;
 	padding: var(--universal-padding) calc(2 * var(--universal-padding));
-	text-decoration: none
+	text-decoration: none;
+	font-family: 'Caveat', cursive;
+	font-weight:bold;
+	font-size: 4em;
 }
 
 header button,
@@ -2306,3 +2359,59 @@ span.icon-user {
 	}
 }
 
+/* Extra custom stuff */
+.container {
+	background-color:var(--feat-color-5);
+	padding: 2em;
+}
+
+.container-inner {
+	background-color: white;
+	/*border-radius: 3% 97% 6% 94% / 93% 6% 94% 7%;*/
+	border-radius: 10% 8% 10% 21% / 7% 14% 21% 10% ;
+	padding:1em;
+}
+
+@media screen and (min-width:768px) {
+	.container {
+		padding: 4em 6em;
+	}
+}
+
+.card-title {
+	font-family: 'Caveat', cursive;
+	font-size: 1.7em;
+}
+
+
+:root {
+	--star-size: 2.5em;
+	--star-color: #fff;
+	--star-background: #fc0;
+  }
+  
+  .stars {
+	--percent: calc(var(--rating) / 5 * 100%);
+	display: inline-block;
+	font-size: var(--star-size);
+	font-family: Times;
+	line-height: 1;
+  }
+  .stars::before {
+	content: "★★★★★";
+	letter-spacing: 3px;
+	/*background: linear-gradient(90deg, var(--feat-color-2) var(--percent), var(--star-color) var(--percent));*/
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+
+  .stars--game::before {
+	background: linear-gradient(90deg, var(--feat-color-2) var(--percent), var(--star-color) var(--percent));
+	-webkit-background-clip: text;
+
+}
+
+	.stars--book::before {
+		background: linear-gradient(90deg, var(--feat-color-4) var(--percent), var(--star-color) var(--percent));
+		-webkit-background-clip: text;
+	}
