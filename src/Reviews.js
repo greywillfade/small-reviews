@@ -1,15 +1,16 @@
 import React from "react";
 import { reviewData } from "./data";
 import "./App.css";
-import Illu from './assets/img/books-person.svg';
 
 export const Reviews = () => {
     return (
         <>
-            <p>Here's some thoughts on things that I've finished and felt like I wanted to capture.</p>
+            
             <div className="cards">
 
-                <div><img src={Illu} alt="A person reading a book" /></div>
+                <div className="card-intro">
+                    <p>Here's some thoughts on things I've finished and felt like I wanted to capture for my future reference.</p>
+                </div>
 
                 {reviewData.map((data, key) => {
                     return (
@@ -43,7 +44,7 @@ const Review = ({ title, author, category, dateFinished, rating, thoughts }) => 
         reviewHeading = title;
     }
 
-    if (category == "Game") {
+    if (category === "Game") {
         categoryIcon = "🎮";
         categoryAlt = "Game controller";
     }

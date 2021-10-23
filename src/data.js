@@ -1,6 +1,13 @@
 export const reviewData = [
 
     {
+        title: "Watchdogs: Legion",
+        category: "Game",
+        dateFinished: "23-Oct-2021",
+        rating: "3.5",
+        thoughts: "Enjoyed the 'recruit anyone' mechanic up to a point, but mostly played as the spider drone as with previous games. Achievements are utterly, utterly broken, which was frustrating. Otherwise a decent enough game to pass time, and enjoyed visiting parts of London I knew."
+    },
+    {
         title: "The City in the Middle of the Night",
         author: "Charlie Jane Anders",
         category: "Book",

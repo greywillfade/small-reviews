@@ -14,13 +14,11 @@ function App() {
 
       <div className="container">
 
-      
-
         <header>
-            <h1 className="logo">Small reviews</h1>
+            <h1 className="logo">
+                <span role="img" aria-label="Stack of books">📚</span> Small reviews
+            </h1>
         </header>
-
-        
 
         <div className="container-inner">
           <Reviews />
