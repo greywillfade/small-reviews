@@ -1,6 +1,14 @@
 export const reviewData = [
 
     {
+        title: "The Fated Sky",
+        author: "Mary Robinette Kowal",
+        category: "Book",
+        dateFinished: "02-Nov-2021",
+        rating: "4",
+        thoughts: "Flew through this, really easy read as was the first book. Mostly set in space, which I really enjoyed. Liked the character development and greater insight into people's motivations, and how this book continued some really insightful descriptions of topics like privilege. Still found the romantic aspects cringy and clunkily written compared to the rest though!"
+    },
+    {
         title: "Watchdogs: Legion",
         category: "Game",
         dateFinished: "23-Oct-2021",
