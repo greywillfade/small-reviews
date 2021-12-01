@@ -1,6 +1,21 @@
 export const reviewData = [
 
     {
+        title: "Star Wars Jedi: Fallen Order",
+        category: "Game",
+        dateFinished: "30-Nov-2021",
+        rating: "3",
+        thoughts: "Picked this up as part of Game Pass. Story was decent and would have been a solid 'fluff' 3.5 thing to play, but docked points because of the AWFUL interface. Seriously, that map. Omg. Some of the platforming was extremely janky (screw you, slides), and would really have benefitted from some fast travel. Or wayfinding. Or just a better bloody map! Outside of that, grabbed all the achievements and was a fun enough way to pass time."
+    },
+    {
+        title: "Foundation",
+        author: "Isaac Asimov",
+        category: "Book",
+        dateFinished: "30-Nov-2021",
+        rating: "2.5",
+        thoughts: "I know this is pretty much blasphemy, but I was surprised at how little I enjoyed this book. I started reading it after watching the TV show, and for me it's one of the rare times that the show is better than the book. I found his writing style a slog to get through, the stories were unremarkable, and at no point was I dying to read on. It was also really notable that there's not a single woman (even mentioned in passing) until about 80% in. One appears with a non-speaking part, and then the next is a nagging wife character."
+    },
+    {
         title: "The Fated Sky",
         author: "Mary Robinette Kowal",
         category: "Book",
