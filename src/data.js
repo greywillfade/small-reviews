@@ -1,6 +1,13 @@
 export const reviewData = [
 
     {
+        title: "Artificial Condition (Murderbot diaries 2)",
+        category: "Book",
+        dateFinished: "14-Dec-2021",
+        rating: "4",
+        thoughts: "More of the same good stuff, basically could be a complete short story continuation of the last in terms of pacing and tone etc. Enjoyed the addition of ART as another very human not-human."
+    },
+    {
         title: "All Systems Red (Murderbot diaries 1)",
         category: "Book",
         dateFinished: "09-Dec-2021",
