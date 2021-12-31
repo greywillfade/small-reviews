@@ -1,6 +1,22 @@
 export const reviewData = [
 
     {
+        title: "Home: Habitat, Range, Niche, Territory (Murderbot diaries 4.5)",
+        author: "Martha Wells",
+        category: "Book",
+        dateFinished: "26-Dec-2021",
+        rating: "3.5",
+        thoughts: "Father Christmas thankfully did enable me further, but on settling in to read I realised that there was actually a short story (yes, I know not technically a book) available to read for free on tor.com. This one breaks with the series and is told from the view of Mensah. It adds an interesting second perspective on a couple of points, but there was something about the writing style and narrative that didn't feel like it fit as well. It felt almost janky after fitting so well with SecUnit's delivery. Still, a nice little addition."
+    },
+    {
+        title: "Exit Strategy (Murderbot diaries 4)",
+        author: "Martha Wells",
+        category: "Book",
+        dateFinished: "21-Dec-2021",
+        rating: "5",
+        thoughts: "This concluded my 4-book boxset, and left me sadly Murderbot-less over Christmas until I could find out if Father Christmas would further enable my binge. This one was basically non-stop action, but it also deepend its important relationships and had some really touching interactions. I'm trying to work out why I haven't given any of these 5 stars yet, so hell, it's Christmas, let's go for it!"
+    },
+    {
         title: "Unpacking",
         category: "Game",
         dateFinished: "19-Dec-2021",
@@ -9,6 +25,7 @@ export const reviewData = [
     },
     {
         title: "Rogue Protocol (Murderbot diaries 3)",
+        author: "Martha Wells",
         category: "Book",
         dateFinished: "18-Dec-2021",
         rating: "4",
@@ -16,6 +33,7 @@ export const reviewData = [
     },
     {
         title: "Artificial Condition (Murderbot diaries 2)",
+        author: "Martha Wells",
         category: "Book",
         dateFinished: "14-Dec-2021",
         rating: "4",
@@ -23,10 +41,11 @@ export const reviewData = [
     },
     {
         title: "All Systems Red (Murderbot diaries 1)",
+        author: "Martha Wells",
         category: "Book",
         dateFinished: "09-Dec-2021",
         rating: "4",
-        thoughts: "Enjoyed this so much I'd bought a box set version of the first 4 before finishing it. Murderbot is just a brilliant character, one who I empathised with from the start, and I want to find out a lot more about. This is a short read and the main criticism seems to be how pricey they are for the length, but I had no criticism. Really enjoyed the setting and how it panned out, looking forward to more."
+        thoughts: "Enjoyed this so much I'd bought a box set version of the first 4 before finishing it. Murderbot is just a brilliant character, one who I empathised with from the start, and I want to find out a lot more about. This is a short read and the main criticism seems to be how pricey they are for the length, but I had no criticism in terms of the content. Really enjoyed the setting and how it panned out, looking forward to more."
     },
     {
         title: "Star Wars Jedi: Fallen Order",
