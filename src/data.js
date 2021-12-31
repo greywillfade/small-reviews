@@ -14,7 +14,7 @@ export const reviewData = [
         category: "Book",
         dateFinished: "21-Dec-2021",
         rating: "5",
-        thoughts: "This concluded my 4-book boxset, and left me sadly Murderbot-less over Christmas until I could find out if Father Christmas would further enable my binge. This one was basically non-stop action, but it also deepend its important relationships and had some really touching interactions. I'm trying to work out why I haven't given any of these 5 stars yet, so hell, it's Christmas, let's go for it!"
+        thoughts: "This concluded my 4-book boxset, and left me sadly Murderbot-less over Christmas until I could find out if Father Christmas would further enable my binge. This one was basically non-stop action, but it also deepened its important relationships and had some really touching interactions. I'm trying to work out why I haven't given any of these 5 stars yet, so hell, it's Christmas, let's go for it!"
     },
     {
         title: "Unpacking",
