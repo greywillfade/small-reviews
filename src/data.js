@@ -1,6 +1,21 @@
 export const reviewData = [
 
     {
+        title: "The Artful Escape",
+        category: "Game",
+        dateFinished: "03-Jan-2022",
+        rating: "3",
+        thoughts: "Very gentle time-passer where you mostly walk right and play guitar as you go, interspersed by some pattern matching mini games, some dialogue, and a chance to create a wonderfully flamboyant outfit and back-story. Cute little story, known voice actors, but most notable for the absolutely stunning visuals that evolve as you play music."
+    },
+    {
+        title: "Network Effect (Murderbot diaries 5)",
+        author: "Martha Wells",
+        category: "Book",
+        dateFinished: "03-Jan-2022",
+        rating: "5",
+        thoughts: "Ahhh so good! This is a longer read than all of the others, and I'm pleased as I loved it all. The pacing is absolutely bang on, I loved the evolving interactions between SecUnit and the ship, but also the introduction of storytelling from different, er, perspectives (no spoilers) brought an interesting but cohesive different dynamic to the story itself. Action, intrigue, amusing parts, humanity, was nothing I didn't like."
+    },
+    {
         title: "Home: Habitat, Range, Niche, Territory (Murderbot diaries 4.5)",
         author: "Martha Wells",
         category: "Book",
