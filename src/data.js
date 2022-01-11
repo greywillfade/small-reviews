@@ -1,5 +1,12 @@
 export const reviewData = [
-
+    {
+        title: "Fugitive Telemetry (Murderbot diaries 6)",
+        author: "Martha Wells",
+        category: "Book",
+        dateFinished: "11-Jan-2022",
+        rating: "4",
+        thoughts: "Finished my Murderbot binge, and I am bereft :(. This one jumps back before Network Effect rather than carrying on, and is basically a detective story with robots. Not quite as great as some of what came before, but still incredibly enjoyable."
+    },
     {
         title: "The Artful Escape",
         category: "Game",
