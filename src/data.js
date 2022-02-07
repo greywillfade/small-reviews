@@ -1,5 +1,13 @@
 export const reviewData = [
     {
+        title: "The Book of Tokyo: A City in Short Fiction",
+        author: "Various",
+        category: "Book",
+        dateFinished: "01-Feb-2022",
+        rating: "2.5",
+        thoughts: "A Christmas present, this collection of short stories varied in how much I enjoyed them, but I didn't absolutely love any. Given the framing I was hoping there'd be more writing about the city itself, but it was actually pretty limited. Jumps from monster story, to semi-explicit sex fantasies, to family dynamics. Lots of it felt obviously translated, and actually left me wishing it had included the Japanese too, so I could read the originals."
+    },
+    {
         title: "Fugitive Telemetry (Murderbot diaries 6)",
         author: "Martha Wells",
         category: "Book",
