@@ -1,5 +1,13 @@
 export const reviewData = [
     {
+        title: "The Storyteller",
+        author: "Dave Grohl",
+        category: "Book",
+        dateFinished: "12-Feb-2022",
+        rating: "4",
+        thoughts: "Another Christmas present. I don't normally buy too many biographies, but obviously this is Dave! I really enjoyed the writing style, and the way that different stories were woven together. I also learnt some things that I didn't know about before. A really enjoyable, easy read."
+    },
+    {
         title: "The Book of Tokyo: A City in Short Fiction",
         author: "Various",
         category: "Book",
