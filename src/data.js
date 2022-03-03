@@ -1,5 +1,12 @@
 export const reviewData = [
     {
+        title: "Ori and the Will of the Wisps",
+        category: "Game",
+        dateFinished: "1-Mar-2022",
+        rating: "3.5",
+        thoughts: "More of the same of the first game. Enjoyed the puzzles and orb hunting, didn't enjoy the frustrating chase sequences with lack of checkpoints, especially with reduced mobility in my hands at the moment! Visually very pretty."
+    },
+    {
         title: "The Storyteller",
         author: "Dave Grohl",
         category: "Book",
