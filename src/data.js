@@ -1,5 +1,13 @@
 export const reviewData = [
     {
+        title: "Leviathan Wakes",
+        author: "James S. A. Corey",
+        category: "Book",
+        dateFinished: "26-Mar-2022",
+        rating: "4",
+        thoughts: "It initially took me a while to get up to speed with reading this, which I eventually worked out was not having the usual page-turner, just-another-chapter aspect of not knowing what happens (as I'd already seen the TV show). However as I went on, I really enjoyed revisiting the characters and story. On finishing it I'm looking forward to working my way through the rest. And it's also worth acknowledging that it's just a bloody good read, with or without the TV show."
+    },
+    {
         title: "Ori and the Will of the Wisps",
         category: "Game",
         dateFinished: "1-Mar-2022",
