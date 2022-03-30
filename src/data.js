@@ -1,5 +1,12 @@
 export const reviewData = [
     {
+        title: "Guardians of the Galaxy",
+        category: "Game",
+        dateFinished: "29-Mar-2022",
+        rating: "3.5",
+        thoughts: "Engaging plot, and I enjoyed the character development and team building. Combat was fun enough but often too chaotic to be properly tactical with getting individuals to lock on to specific targets, and some mechanics were pretty confusing even after finishing. I still have a load of combat-related achievements locked and can't work out whether it's because they're bugged or if I just don't know how to trigger the thing it wants 🤷🏻‍♀️. Anything to do with flying the ship was horrible."
+    },
+    {
         title: "Leviathan Wakes",
         author: "James S. A. Corey",
         category: "Book",
