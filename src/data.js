@@ -1,5 +1,13 @@
 export const reviewData = [
     {
+        title: "Klara and the Sun",
+        author: "Kazuo Ishiguro",
+        category: "Book",
+        dateFinished: "14-Apr-2022",
+        rating: "3.5",
+        thoughts: "A nice little read that I chipped away at, usually across short stints in early mornings. I found the slightly mysterious and mostly left to your imagination world-building an interesting setting for the story, and enjoyed both Klara's narration/perspective and the other characters she interacts with."
+    },
+    {
         title: "Guardians of the Galaxy",
         category: "Game",
         dateFinished: "29-Mar-2022",
