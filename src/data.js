@@ -1,5 +1,13 @@
 export const reviewData = [
     {
+        title: "The Galaxy, and the Ground Within",
+        author: "Becky Chambers",
+        category: "Book",
+        dateFinished: "30-Apr-2022",
+        rating: "4",
+        thoughts: "Having read all of the previous Wayfarers series I'd been waiting a while for this one to come out in paperback, and it didn't disappoint. Very little happens; it's basically a book detailing conversations between the characters. However I've thoroughly enjoyed the detail of the world building in this series, particularly around the cultural aspects of different species, and this book gives lots of that. It was also nice to get to know Pei a bit better after her previous appearances."
+    },
+    {
         title: "Klara and the Sun",
         author: "Kazuo Ishiguro",
         category: "Book",
