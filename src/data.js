@@ -1,5 +1,13 @@
 export const reviewData = [
     {
+        title: "Cribsheet",
+        author: "Emily Oster",
+        category: "Book",
+        dateFinished: "1-Aug-2022",
+        rating: "3.5",
+        thoughts: "This was a recommendation, and whilst it was interesting enough it took me ages to get through because I'm just not much of a factual book reader. It contains some content that I found very useful, and which also helped me form up and rationalise some of my thinking and decision making, so in that sense it's been good. But I'll be glad to get back to fiction again!"
+    },
+    {
         title: "Tiny Tina's Wonderlands",
         category: "Game",
         dateFinished: "27-May-2022",
