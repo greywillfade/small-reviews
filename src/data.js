@@ -1,5 +1,12 @@
 export const reviewData = [
     {
+        title: "Tiny Tina's Wonderlands",
+        category: "Game",
+        dateFinished: "27-May-2022",
+        rating: "4",
+        thoughts: "Silly fun in the vein of the previous games which I got a looooot of play time out of trying to clear up all the collectibles. I enjoyed the magic and way that skills were specced (e.g. dual classes), however found this ultimately missed the emotional pull of the main game characters and story as it was all throwaway make believe."
+    },
+    {
         title: "The Galaxy, and the Ground Within",
         author: "Becky Chambers",
         category: "Book",
