@@ -7,7 +7,6 @@ export const reviewData = [
         rating: "1.5",
         thoughts: "I was lent this by someone who didn't enjoy it, and I took that as a bit of a challenge, thinking it'd suit my tastes better. However this was really not for me either. I didn't get this book at all, which makes me feel like I'm missing something and am stupid, but I found this disjointed, without substance, repetitive, and just bloody confusing. Even after finishing I have absolutely no idea what was going on with the disappearing, which felt utterly out of place in the story about the mother's decline. I read this over a day and a half, during times where I was settling the baby's milk. That's a fast read for me, and it was partly so because I skimmed over so much of the repetitive incoherent babbling sections, and overly elaborate but tedious descriptions. An easily forgettable book."
     },{
-    {
         title: "Jack Four",
         author: "Neal Asher ",
         category: "Book",
