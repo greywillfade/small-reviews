@@ -1,7 +1,15 @@
 export const reviewData = [
     {
+        title: "Project Hail Mary",
+        author: "Andy Weir",
+        category: "Book",
+        dateFinished: "06-Oct-2022",
+        rating: "3.5",
+        thoughts: "Yay, something I enjoyed! I haven't read The Martian in years, but the main character reads (from memory) as very similar. It was a nice easy read with lots of science thought gone into it, which juuust about falls on the side of helpful explanations rather than coming off as just very know it all. I was also actually really enjoying how little of the Everything Constantly Goes Wrong In Space trope it was using... until the book hits a patch of Lots Goes Wrong. Oh well. I enjoyed finding out more through the flashbacks, and generally found it an interesting idea."
+    },
+    {
         title: "The Living Sea of Waking Dreams",
-        author: "Richard Flanagan ",
+        author: "Richard Flanagan",
         category: "Book",
         dateFinished: "30-Sep-2022",
         rating: "1.5",
