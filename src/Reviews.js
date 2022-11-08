@@ -65,7 +65,6 @@ const Review = ({ title, author, category, dateFinished, rating, thoughts }) => 
             <p>Finished: {dateFinished}</p>
             <div className={`stars stars--${category.toLowerCase()}`} style={starRating}></div>
             
-            
             <p>{thoughts}</p>
         </div>
 

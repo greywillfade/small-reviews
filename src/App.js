@@ -7,16 +7,11 @@ function App() {
   return (
     <div className="App">
 
-      <div className="shape-blob"></div>
-      <div className="shape-blob one"></div>
-      <div className="shape-blob two"></div>
-      <div className="shape-blob three"></div>
-
       <div className="container">
 
         <header>
             <h1 className="logo">
-                <span role="img" aria-label="Stack of books">📚</span> Small reviews
+                <span role="img" aria-label="Stack of books">📚</span> <span className="logo-text">Small reviews</span>
             </h1>
         </header>
 
@@ -25,7 +20,7 @@ function App() {
         </div>
 
         <footer>
-          <p>Site by <a href="https://sally.dev">Sally</a> for herself</p>
+          <p>Site by <a href="https://sally.dev">Sally</a> for myself</p>
         </footer>
       </div>
 

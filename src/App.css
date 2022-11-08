@@ -2,7 +2,7 @@
 :root {
 	--fore-color: #111;
 	--secondary-fore-color: #444;
-	--back-color: rgb(253, 253, 253);
+	--back-color: #160b43;/*rgb(253, 253, 253);*/
 	--secondary-back-color: #f0f0f0;
 	--blockquote-color: #f57c00;
 	--pre-color: #1565c0;
@@ -10,9 +10,9 @@
 	--secondary-border-color: #ddd;
 
 	--feat-color-1:#cdb4db;
-	--feat-color-2:#ffc8dd;
+	--feat-color-2:#550442;/*#ffc8dd;*/
 	--feat-color-3:#ffafcc;
-	--feat-color-4:#bde0fe;
+	--feat-color-4:rgb(252, 28, 79);/*#bde0fe;*/
 	--feat-color-5:#a2d2ff;
 
 	--heading-ratio: 1.19;
@@ -93,7 +93,7 @@ u {
 html,
 * {
 	font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Ubuntu, helvetica neue, Helvetica, sans-serif;
-	line-height: 1.5;
+	line-height: 1.3;
 	-webkit-text-size-adjust: 100%
 }
 
@@ -104,7 +104,7 @@ html,
 body {
 	margin: 0;
 	color: var(--fore-color);
-	background: var(--back-color)
+	background: var(--back-color);
 }
 
 details {
@@ -727,13 +727,13 @@ a:focus {
   grid-gap: 1rem;
 }
 
-@media (min-width: 600px) {
+/*@media (min-width: 600px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (min-width: 900px) {
   .cards { grid-template-columns: repeat(3, 1fr); }
-}
+}*/
 
 .card {
   /*background-color: var(--card-back-color);*/
@@ -744,6 +744,7 @@ a:focus {
 	border-radius: 0.75em;
 	margin: var(--universal-margin);
   padding: var(--universal-padding);
+  white-space: pre-wrap;
 
 }
 
@@ -757,16 +758,17 @@ a:focus {
 }
 
 .card-intro {
-	background-color: var(--feat-color-2);
+	/*background-color: var(--feat-color-2);
 	background-size: cover;
 	border-radius: 0.75em;
 	margin: var(--universal-margin);
-  	padding: var(--universal-padding);
+  	padding: var(--universal-padding);*/
 }
 
 .card-intro p {
 	font-size: 1.1em;
-	font-weight:600;
+	font-weight: 400;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -1221,10 +1223,10 @@ button.large,
 	--nav-fore-color: #444;
 	--nav-border-color: #ddd;
 	--nav-link-color: #0277bd;
-	--footer-fore-color: #444;
+	--footer-fore-color: #f8f8f8;
 	--footer-back-color: #f8f8f8;
 	--footer-border-color: #ddd;
-	--footer-link-color: #0277bd;
+	--footer-link-color: rgb(252, 28, 79);
 	--drawer-back-color: #f8f8f8;
 	--drawer-hover-back-color: #f0f0f0;
 	--drawer-border-color: #ddd;
@@ -1249,13 +1251,24 @@ header.row {
 }
 
 header .logo {
-	color: var(--header-fore-color);
-	font-size: 1.75rem;
 	/*padding: var(--universal-padding) calc(2 * var(--universal-padding));*/
 	text-decoration: none;
-	font-family: 'Caveat', cursive;
-	font-weight:bold;
-	font-size: 4em;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight:900;
+	font-size: 2.5em;
+}
+
+.logo-text {
+	/*background: linear-gradient(to right bottom, rgb(252, 28, 79) 0%, rgb(176, 2, 41) 100%) 100% center no-repeat;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+	color: rgb(252, 28, 79);
+}
+
+@media screen and (min-width:768px) {
+	.logo-text {
+		font-size: 1.4em;
+	}
 }
 
 header button,
@@ -2379,25 +2392,14 @@ span.icon-user {
 
 /* Extra custom stuff */
 .container {
-	background-color:var(--feat-color-5);
+	/*background-color:var(--feat-color-5);*/
 	padding: 2em;
-
-	/*background: #0A2463;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	overflow: hidden;
-	position: relative;*/
 }
 
 .container-inner {
-	background-color: white;
-	/*border-radius: 3% 97% 6% 94% / 93% 6% 94% 7%;*/
-	/*border-radius: 10% 8% 10% 21% / 7% 14% 21% 10% ;*/
+	background-color: #ededee;
 	border-radius: 3em;
-	padding:3em 1em;
+	padding:1em 1em;
 	z-index:10;
 	position: relative;
 	margin-top:0.7em;
@@ -2410,8 +2412,15 @@ span.icon-user {
 }
 
 .card-title {
-	font-family: 'Caveat', cursive;
-	font-size: 1.7em;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+@media screen and (min-width:768px) {
+	.card-title {
+		font-size: 1.3em;
+	}
 }
 
 :root {
@@ -2445,7 +2454,8 @@ span.icon-user {
 		background: linear-gradient(90deg, var(--feat-color-4) var(--percent), var(--star-color) var(--percent));
 		-webkit-background-clip: text;
 	}
-
+	
+	/*
 	.shape-blob {
 		background:var(--feat-color-4);
 		height: 200px;
@@ -2485,8 +2495,10 @@ span.icon-user {
 		right: -100px;
 		top: -150px;
 	}
+	*/
 	
 	/*Still too janky*/
+	/*
 	@keyframes transform
 	{
 	0%,
@@ -2515,3 +2527,4 @@ span.icon-user {
 	  500% { transform: none; }
 	   50% { transform: translate(50%, 20%) rotate(-200deg) scale(1.2);}
 	}
+	*/
