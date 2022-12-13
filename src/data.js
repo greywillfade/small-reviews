@@ -1,5 +1,31 @@
 export const reviewData = [
     {
+        title: "Firewatch",
+        category: "Game",
+        dateFinished: "13-Dec-2022",
+        rating: "4",
+        thoughts: "I've been meaning to play this for years. I think I was initially put off by thinking it was scary (it's not) way back, but on seeing it on Game Pass I downloaded it at some point before I got distracted by Overwatch 2. I happened to see it was leaving very soon, and that was the kick I needed to crack on, so I motored through it in a few hours over the last few days. I felt like the wilderness was a bit tedious and empty and this plus some clunky movement didn't make me want to explore, which was a bit of a missed opportunity. However the story was interesting and quite touching at points, and it was compelling enough to want to finish before the deadline."
+    },{
+        title: "Overwatch 2",
+        category: "Game",
+        dateFinished: "13-Dec-2022",
+        rating: "3.5",
+        thoughts: "I'm just adding this in for posterity because I've been playing it sporadically since it came out, although given its nature I'd never be 'finished'. It's...Overwatch. But without the fun of loot boxes, and the no-fun of buying a season pass to unlock rubbish items I don't actually like. It's still a really fun game, but there's nothing new here."
+    },{
+        title: "Binti",
+        author: "Nnedi Okorafor",
+        category: "Book",
+        dateFinished: "2-Dec-2022",
+        rating: "3.5",
+        thoughts: "An extremely short read, but one that I enjoyed. Binti was a character that I could get behind from the start, and the descriptions of prejudice and difference made me both feel for her, but also helped build the world really quickly. There were a number of new terms and fantastical concepts (a ship that was a giant space prawn!) but unlike the previous book I read, I found it easy to imagine the concepts. I only wish it was a bit longer and extensive, as it felt more like a short story than a novella but I'd definitely be keen to read more."
+    },{
+        title: "Ninefox Gambit (The Machineries of Empire #1)",
+        author: "Yoon Ha Lee",
+        category: "Book",
+        dateFinished: "30-Nov-2022",
+        rating: "3",
+        thoughts: "This book reminded me of what it feels like to try to read Japanese novels a bit too far above my level: I kind of get the gist of what's going on, but I couldn't answer questions well on details. Even after finishing this book and getting the 'explainer chapters' at the end, there are fundamental bits I simply don't understand. Apparently I'm not alone, with a ton of people on Goodreads experiencing similar. Don't get me wrong, I'm happy to use my imagination, and I don't need it spelled out to me exactly what a servitor, formation instint, or exotic weapons are exactly. But right from the start the sheer level of never explained terms made the world-building feel weak and disconnected for me. Characters with non-memorable names were thrown in and soon disappear, leading to a lot of 'am I meant to know this name?' too. Despite all that, I did like the central concept, and I'm open to reading more in the series as it sounds like they're a bit more accessible...and maybe will help me put some of the pieces together about this book!"
+    },{
         title: "Ninefox Gambit (The Machineries of Empire #1)",
         author: "Yoon Ha Lee",
         category: "Book",
