@@ -1,5 +1,18 @@
 export const reviewData = [
     {
+        title: "Revenger",
+        author: "Alastair Reynolds",
+        category: "Book",
+        dateFinished: "31-Dec-2022",
+        rating: "3.5",
+        thoughts: "Read in a covid haze, I started out feeling like I didn't have much connection to the book and it was going to be a bit of a generic slog. However the character of Fura, along with the people around her, soon changed and became much more interesting. Some of the central concepts and mysteries, like the bones, baubles, and quoins also left enough questions for me to be keen to read more in the series. In the end I enjoyed it, it was a strong read and I was excited to see how it ended."
+    },{
+        title: "Dishonored: Death of the Outsider",
+        category: "Game",
+        dateFinished: "29-Dec-2022",
+        rating: "3",
+        thoughts: "The Dishonored games are a series that I've enjoyed, so I picked this up on Game Pass as something to play over the Christmas period. It's basically exactly the same, even down to reusing environments, but that doesn't detract from it still being fun to play. I enjoyed it, but it loses marks for having three achievements completely bug and refuse to pop, one of which took me ages to make sure I got it. There were also little UI fails, like the markers for the contracts being off by default, which made me completely forget about them on the first mission until I saw them pop up as fails. Little bits of frustration like that ultimately just took the shine off it."
+    },{
         title: "All My Rage",
         author: "Sabaa Tahir",
         category: "Book",
