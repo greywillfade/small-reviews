@@ -10,6 +10,11 @@ export const Reviews = () => {
 
                 <div className="card-intro">
                     <p>Here's some thoughts on things I've finished and felt like I wanted to capture for my future reference.</p>
+                    <p>⭐: actively disliked this<br />
+                    ⭐⭐: meh<br />
+                    ⭐⭐⭐: enjoyable but not notable<br />
+                    ⭐⭐⭐⭐: really great; would recommend<br />
+                    ⭐⭐⭐⭐⭐: utterly brilliant!</p>
                 </div>
 
                 {reviewData.map((data, key) => {
