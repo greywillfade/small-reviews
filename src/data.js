@@ -1,5 +1,11 @@
 export const reviewData = [
     {
+        title: "Deathloop",
+        category: "Game",
+        dateFinished: "16-Jan-2023",
+        rating: "4.5",
+        thoughts: "I thought this was a bloody great game. It was tons of fun. The sense of play and exploration it gave me when the world opened up properly and I could start to experiment with cause and effect was brilliant, and I'm still enjoying mopping up the last few bits I'd missed. The story was fun, the combat was fun, the powers were fun. I found it hard without being annoying, although at one point (ClassPass/Juliana issues) I was sorely tempted to up my number of Reprises but thankfully couldn't figure out why it was locked so didn't (I later realised it unlocks in between levels...). Now the game's over I feel horrendously overpowered, and I've been enjoying trying to get missing achievements in ways which make me use non-standard loadouts and play styles to get them done. More than once I fell asleep at night thinking about how to run part of a level, and I think this game will be genuinely memorable for me."
+    },{
         title: "Revenger",
         author: "Alastair Reynolds",
         category: "Book",
