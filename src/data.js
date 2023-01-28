@@ -1,5 +1,12 @@
 export const reviewData = [
     {
+        title: "To Sleep in a Sea of Stars",
+        author: "Christopher Paolini",
+        category: "Book",
+        dateFinished: "28-Jan-2023",
+        rating: "3",
+        thoughts: "On starting this (unexpectedly thick!) book, I wasn't sure if I'd be able to stomach it for so many pages. The early pages are sickly sweet cheese, focusing on two characters who \"babe\" each other and generally seemed extremely annoying. Thankfully (mild spoiler) one gets killed off shortly after (hooray!), and the clumsy writing only reared its head a couple more times (the description of period pains was classic). It felt like a bit of a slog to get through, as whilst there's several acts and stuff happens, none of it felt super captivating to me. The story is interesting enough though, and it's very well thought out in terms of all of the hard details, for me it just could have done with being a bit more punchy and a bit less clumsy when it comes to a man writing about a woman."
+    },{
         title: "Deathloop",
         category: "Game",
         dateFinished: "16-Jan-2023",
