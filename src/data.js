@@ -1,5 +1,12 @@
 export const reviewData = [
     {
+        title: "Caliban's War (The Expanse book 2)",
+        author: "James S. A. Corey",
+        category: "Book",
+        dateFinished: "09-Feb-2023",
+        rating: "4",
+        thoughts: "Unlike book 1, I just kept wanting to read this and frequently found myself slipping into the next chapter despite meaning to stop. Which I guess was kind of like the TV show when it reached this point. My memory is a bit hazy, but there are definitely some divergences from the adaptation in here, which did keep it more fresh for my brain than book 1. But also, the writing and characters are just so rich, and I loved spending more time with them. Avasarala and Bobbie were my faves in this book (obviously), but I'm also enjoying reclaiming being able to like Alex. Just great writing, and I couldn't resist ordering book 3 to jump into next."
+    },{
         title: "Townscaper",
         category: "Game",
         dateFinished: "30-Jan-2023",
@@ -153,7 +160,7 @@ export const reviewData = [
         thoughts: "Engaging plot, and I enjoyed the character development and team building. Combat was fun enough but often too chaotic to be properly tactical with getting individuals to lock on to specific targets, and some mechanics were pretty confusing even after finishing. I still have a load of combat-related achievements locked and can't work out whether it's because they're bugged or if I just don't know how to trigger the thing it wants 🤷🏻‍♀️. Anything to do with flying the ship was horrible."
     },
     {
-        title: "Leviathan Wakes",
+        title: "Leviathan Wakes (The Expanse book 1)",
         author: "James S. A. Corey",
         category: "Book",
         dateFinished: "26-Mar-2022",
