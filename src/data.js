@@ -1,5 +1,12 @@
 export const reviewData = [
     {
+        title: "Abaddon's Gate (The Expanse book 3)",
+        author: "James S. A. Corey",
+        category: "Book",
+        dateFinished: "16-Feb-2023",
+        rating: "4",
+        thoughts: "Ok so I'm fully invested now, and just continuing the binge. This one I felt like I enjoyed slightly less, but the thought of giving it anything less than a 4 felt daft, so 4 it is. I think it was because so much of this one focuses on non-core characters, although Melba/Clarissa was my favourite. On finishing I went and read all the TV summaries to compare, and a _lot_ differs in this, especially with the weird smushing of Pa/Ashford/Drummer/Sam/Bull. Lots of action, lots of pace, and heading straight into book 4 to keep it up."
+    },{
         title: "Caliban's War (The Expanse book 2)",
         author: "James S. A. Corey",
         category: "Book",
