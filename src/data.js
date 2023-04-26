@@ -1,5 +1,12 @@
 export const reviewData = [
     {
+        title: "Babylon's Ashes (The Expanse book 6)",
+        author: "James S. A. Corey",
+        category: "Book",
+        dateFinished: "25-Apr-2023",
+        rating: "3.5",
+        thoughts: "I think I'm getting a bit Expansed out now. I still enjoyed this one, but felt like I was running out of steam a bit. The sheer range of characters who took point on chapters made this almost feel like a collection of short stories, as some of them were real nobodies who never got another chance to narrate, just popping up in other characters' goes. That said, I did actually enjoy that we got to see a bit from the Free Navy on Medina's perspective of how it all went down. Seeing Filip develop was also interesting to read, and I enjoyed how him and Marco read slightly differently to the other characters."
+    },{
         title: "Nemesis Games (The Expanse book 5)",
         author: "James S. A. Corey",
         category: "Book",
