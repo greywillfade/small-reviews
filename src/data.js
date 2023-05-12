@@ -1,5 +1,12 @@
 export const reviewData = [
     {
+        title: "Redshirts",
+        author: "John Scalzi",
+        category: "Book",
+        dateFinished: "11-May-2023",
+        rating: "3.5",
+        thoughts: "This was a holiday read, and was perfect fluff for that kind of situation. It's lighthearted and silly, and leaves you with good feels on various fronts. However it didn't feel massively memorable or like I'll look back on it as a highlight, but that's ok because it completely served its purpose!"
+    },{
         title: "Babylon's Ashes (The Expanse book 6)",
         author: "James S. A. Corey",
         category: "Book",
