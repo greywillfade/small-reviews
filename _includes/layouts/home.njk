@@ -1,0 +1,45 @@
+{% include "partials/base.njk" %}
+    
+<div class="App">
+    <div class="container">
+
+    <header>
+        <h1 class="logo">
+            <span role="img" aria-label="Stack of books">📚</span> <span class="logo-text">Small reviews</span>
+        </h1>
+    </header>
+
+    <div class="container-inner">
+        <div class="cards">
+
+                <div class="card-intro">
+                    <p>Here's some thoughts on things I've finished and felt like I wanted to capture for my future reference.</p>
+                    <p>⭐: actively disliked this<br />
+                    ⭐⭐: meh<br />
+                    ⭐⭐⭐: enjoyable but not notable<br />
+                    ⭐⭐⭐⭐: really great; would recommend<br />
+                    ⭐⭐⭐⭐⭐: utterly brilliant!</p>
+                </div>
+
+                <div>2023 | <a href="/2022">2022</a></div>
+
+                {# todo: fix whitespace. collections.review #}
+                {%- for review in collections[2023] | reverse -%}
+                    <div class="card card--{{- review.data.category | lower -}}"><p class="card-title">
+                        {%- if (review.data.category == "Book") -%}
+                        <span role="img" aria-label="Open book">📖</span> {{ review.data.title }} by {{ review.data.author -}}
+                        {%- else -%}
+                            <span role="img" aria-label="Game controller">🎮</span> {{ review.data.title -}}
+                        {%- endif -%}
+                        </p><p>Finished: {{ review.data.dateFinished -}} </p><div class="stars stars--{{- review.data.category | lower -}}" style="--rating: {{- review.data.rating -}}"></div>{{- review.content | safe -}}</div>
+                {%- endfor -%}
+        </div>
+    </div>
+
+    <footer>
+        <p>Site by <a href="https://sally.dev">Sally</a> for myself</p>
+    </footer>
+    </div>
+</div>
+</body>
+</html>

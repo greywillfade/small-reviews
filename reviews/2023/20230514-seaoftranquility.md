@@ -1,0 +1,14 @@
+---
+title: Sea of tranquility
+author: Emily St. John Mandel
+date: '2023-07-14'
+dateFinished: 14th May 2023
+category: Book
+rating: 3.5
+tags:
+  - review
+  - book
+  - "2023"
+---
+
+I liked this more as it went on and all the strands came together, and it was a decent time travel read that wrapped up all the mysteries nicely... but overall something still left me a little bit cold. I think it may have been that I just didn't care about the characters very much. I actually felt a bit like Gaspery at the point where he still felt able to be detached about knowing how and when the people would die. They never really properly came alive for me. However I also definitely find pandemic-related content a bit less fun to read nowadays, and I think this probably suffered a bit in the same way as how I felt about 'How high we go in the dark' in terms of the setting.

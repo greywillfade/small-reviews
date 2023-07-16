@@ -757,20 +757,11 @@ a:focus {
 	--card-border-color: var(--feat-color-4);
 }
 
-.card-intro {
-	/*background-color: var(--feat-color-2);
-	background-size: cover;
-	border-radius: 0.75em;
-	margin: var(--universal-margin);
-  	padding: var(--universal-padding);*/
-}
-
 .card-intro p {
 	font-size: 1.1em;
 	font-weight: 400;
 	font-family: 'Noto Sans', sans-serif;
 }
-
 
 
 :root {
@@ -861,6 +852,7 @@ label {
 
 [type=search] {
 	-webkit-appearance: textfield;
+	appearance: textfield;
 	outline-offset: -2px
 }
 
@@ -987,7 +979,8 @@ button,
 html [type=button],
 [type=reset],
 [type=submit] {
-	-webkit-appearance: button
+	-webkit-appearance: button;
+	appearance: button;
 }
 
 button {
@@ -2066,7 +2059,6 @@ mark.tag {
 
 progress {
 	display: block;
-	vertical-align: baseline;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -2442,89 +2434,17 @@ span.icon-user {
 	/*background: linear-gradient(90deg, var(--feat-color-2) var(--percent), var(--star-color) var(--percent));*/
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	background-clip: text;
   }
 
-  .stars--game::before {
+.stars--game::before {
 	background: linear-gradient(90deg, var(--feat-color-2) var(--percent), var(--star-color) var(--percent));
 	-webkit-background-clip: text;
-
+	background-clip: text;
 }
 
-	.stars--book::before {
-		background: linear-gradient(90deg, var(--feat-color-4) var(--percent), var(--star-color) var(--percent));
-		-webkit-background-clip: text;
-	}
-	
-	/*
-	.shape-blob {
-		background:var(--feat-color-4);
-		height: 200px;
-		width: 200px;
-		border-radius: 30% 50% 20% 40%;
-		animation: 
-			transform 20s ease-in-out infinite both alternate,
-			movement_one 40s ease-in-out infinite both;
-		opacity:.8;
-		position: absolute;
-		left: 70%;
-		top: 50%;
-		z-index:1;
-		mix-blend-mode: multiply;
-	}
-	.shape-blob.one{
-		height: 400px;
-		width: 400px;
-		left: -200px;
-		top: -150px;
-		transform: rotate(-180deg);
-		animation: transform 30s ease-in-out infinite both alternate, movement_two 60s ease-in-out infinite both;
-	}
-	
-	.shape-blob.two{
-		height: 350px;
-		width: 350px;
-		right: 500px;
-		top: -150px;
-		transform: rotate(-180deg);
-		animation: transform 30s ease-in-out infinite both alternate, movement_two 60s ease-in-out infinite both;
-	}
-
-	.shape-blob.three{
-		height: 250px;
-		width: 250px;
-		right: -100px;
-		top: -150px;
-	}
-	*/
-	
-	/*Still too janky*/
-	/*
-	@keyframes transform
-	{
-	0%,
-	  100% { border-radius: 33% 67% 70% 30% / 30% 30% 70% 70%; } 
-	  10% { border-radius: 35% 65% 60% 40% / 35% 45% 50% 68%; }  
-	  20% { border-radius: 37% 63% 51% 49% / 37% 65% 35% 63%; } 
-	  30% { border-radius: 36% 64% 68% 40% / 45% 55% 45% 50%; }  
-	  40% { border-radius: 36% 64% 64% 36% / 64% 48% 52% 36%; }
-	  50% { border-radius: 37% 64% 57% 42% / 45% 38% 60% 55%; }
-	  60% { border-radius: 37% 63% 51% 49% / 30% 30% 70% 70%; } 
-	  70% { border-radius: 38% 61% 46% 52% / 36% 41% 59% 65%; }
-	  80% { border-radius: 40% 60% 42% 58% / 41% 51% 49% 59%; } 
-	}
-	
-	
-	@keyframes movement_one
-	{
-		0%,
-	  100% { transform: none; }
-	   50% { transform: translate(50%, 20%) rotateY(10deg) scale(1.2); }
-	}
-	
-	@keyframes movement_two
-	{
-		0%,
-	  500% { transform: none; }
-	   50% { transform: translate(50%, 20%) rotate(-200deg) scale(1.2);}
-	}
-	*/
+.stars--book::before {
+	background: linear-gradient(90deg, var(--feat-color-4) var(--percent), var(--star-color) var(--percent));
+	-webkit-background-clip: text;
+	background-clip: text;
+}
