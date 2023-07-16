@@ -1,10 +1,9 @@
 {% include "partials/base.njk" %}
 {% include "partials/headerintro.njk" %}
-
-                <div>2023 | <a href="/2022">2022</a></div>
+                <div><a href="/">2023</a> | 2022</div>
 
                 {# todo: fix whitespace. collections.review #}
-                {%- for review in collections[2023] | reverse -%}
+                {%- for review in collections[2022] | reverse -%}
                     <div class="card card--{{- review.data.category | lower -}}"><p class="card-title">
                         {%- if (review.data.category == "Book") -%}
                         <span role="img" aria-label="Open book">📖</span> {{ review.data.title }} by {{ review.data.author -}}
@@ -13,5 +12,4 @@
                         {%- endif -%}
                         </p><p>Finished: {{ review.data.dateFinished -}} </p><div class="stars stars--{{- review.data.category | lower -}}" style="--rating: {{- review.data.rating -}}"></div>{{- review.content | safe -}}</div>
                 {%- endfor -%}
-
 {% include "partials/footer.njk" %}
