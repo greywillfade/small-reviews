@@ -1,7 +1,7 @@
 ---
 title: Sea of tranquility
 author: Emily St. John Mandel
-date: '2023-07-14'
+date: '2023-05-14'
 dateFinished: 14th May 2023
 category: Book
 rating: 3.5
