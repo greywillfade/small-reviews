@@ -1,0 +1,14 @@
+---
+title: Tomorrow, and Tomorrow, and Tomorrow
+author: Gabrielle Zevin
+date: '2022-10-30'
+dateFinished: 30th October 2022
+category: Book
+rating: 4.5
+tags:
+  - review
+  - book
+  - "2022"
+---
+
+I'd seen this rated highly by others, and it didn't disappoint. I'd also seen comparisons with Ready Player One, which is nonsense, and extremely lazy. If anything it reminded me more of Halt and Catch Fire. This is a beautifully written book, which perfectly captures all kinds of very human emotions and situations. The plot itself for me felt secondary to the characters, who had wonderful depth and flaws, and who felt very real after spending more and more time reading. At one point there's a very notable event, and I found myself wanting to cheat and look ahead to see if everything turned out ok or not, because I was that invested. For others the video game heavy content will be too much, but for me it was a big draw. Loved it.
