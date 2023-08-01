@@ -735,6 +735,45 @@ a:focus {
   .cards { grid-template-columns: repeat(3, 1fr); }
 }*/
 
+.summary--holder {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1, 1fr;
+	font-size: 500px!important;
+}
+
+@media (min-width: 600px) {
+  .summary--holder { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .summary--holder { grid-template-columns: repeat(3, 1fr); }
+}
+
+.summary--book {
+	background-color:rgb(252, 28, 79);
+	color: white;
+	border-radius: 0.75em;
+	margin: var(--universal-margin);
+	padding: var(--universal-padding);
+	white-space: pre-wrap;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight:900;
+  }
+
+  .summary--game {
+	background-color:#550442;
+	color: white;
+	border-radius: 0.75em;
+	margin: var(--universal-margin);
+	padding: var(--universal-padding);
+	white-space: pre-wrap;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight:900;
+  }
+
 .card {
   /*background-color: var(--card-back-color);*/
   background-color: #fffbfd;
