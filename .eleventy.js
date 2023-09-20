@@ -20,5 +20,13 @@ module.exports = function(eleventyConfig) {
         return collectionApi.getFilteredByTags("game", "2022");
     });
 
+    eleventyConfig.addCollection("books2021", function(collectionApi) {
+        return collectionApi.getFilteredByTags("book", "2021");
+    });
+
+    eleventyConfig.addCollection("games2021", function(collectionApi) {
+        return collectionApi.getFilteredByTags("game", "2021");
+    });
+
 };
 
