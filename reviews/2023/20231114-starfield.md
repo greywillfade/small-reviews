@@ -1,0 +1,23 @@
+---
+title: Starfield
+date: '2023-11-14'
+dateFinished: 14th November 2023
+category: Game
+rating: 3
+tags:
+  - review
+  - game
+  - "2023"
+---
+
+Well, after a ridiculous number of not entirely fun hours, it's finally done. I have a lot of problems with this game. It started out pretty well in a _"aww, nostalgia, I enjoyed Fallouts"_ way, then over time, with bugs, and dare I say even a level of boredom I reached a state of _"I now remember why I never actually finished Fallout 4"_. It picked up again before the end with a bit more interest and variety, but ultimately this fell short in so many ways for me. 
+
+Completely unforgivable was that the game literally crashed at least once every single day I played it. It became a running joke in my house to see when in the play session it would happen. It's not an overstatement to say I've never played another game that's crashed so frequently and predictably, even Cyberpunk. Then there were the little disappointments – I saved up my trinkets until I got a house, intending to spend a bit of time customising it. Tons of succulents and plushies placed later, on returning everything had sunk into the environment. This was an exact replica of an issue that made me abandon base building in Fallout, and it again had the same effect on me here.
+
+I finished the game with two permanent interface bugs – a finished mission that was permanently set as active, and a weather warning that similarly would not go. In two locations people would just walk around in underwear – amusing at first, grating beyond that. The ship builder was utterly impenetrable without online guides. I had real problems with unique items (audio slates) looking too generic (notepads, other tablets), but even I, a 'gotta catch em  all' player gave up on picking up any items apart from ammo past a certain point. And... the majority of the game was unfortunately just a bit dull.
+
+My favourite missions were the ones with personality. Space frog will probably stick with me the most just because it was cute. I did also enjoy the concept of wearing an alien suit to scare tourists, even if the implementation was a bit tedious. The "basically Titanfall 2 time travel" side mission was a more interesting mechanic, fights in zero G (e.g. the casino ship) were novel, and I thought the concept of the run-up-to and final boss fight (mild spoilers...... with revisiting past scenes and locations) was interesting if short – I killed the guy too quickly before I really got to enjoy the environments. 
+
+The ending itself (no real spoilers) also felt like a huge let down for a role-playing game. Here's a BIG DECISION to make, presented in a way where you either go forward to a new life, or turn back towards your old life. Except... you can't technically finish the mission unless you make the choice to go forward! Which wasn't what I wanted to do, story-wise. It was also a total waste, in that I'd just got a cool gun from the final boss, but on going forward all my possessions were stripped from me, so I never even got to try it 🤷🏻‍♀️
+
+This is a lot of words for something I didn't like that much, but overall I'd say I'm mostly glad I didn't buy it and it was on Game Pass!
