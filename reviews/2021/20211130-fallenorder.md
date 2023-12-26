@@ -1,0 +1,13 @@
+---
+title: "Star Wars Jedi: Fallen Order"
+date: '2021-11-30'
+dateFinished: 30th November 2021
+category: Game
+rating: 3
+tags:
+  - review
+  - game
+  - "2021"
+---
+
+Picked this up as part of Game Pass. Story was decent and would have been a solid 'fluff' 3.5 thing to play, but docked points because of the AWFUL interface. Seriously, that map. Omg. Some of the platforming was extremely janky (screw you, slides), and would really have benefitted from some fast travel. Or wayfinding. Or just a better bloody map! Outside of that, grabbed all the achievements and was a fun enough way to pass time.
