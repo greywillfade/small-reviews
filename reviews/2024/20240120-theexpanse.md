@@ -1,0 +1,15 @@
+---
+title: 'The Expanse: A Telltale Series'
+date: '2024-01-20'
+dateFinished: 20th January 2024
+category: Game
+rating: 3.5
+tags:
+  - review
+  - game
+  - "2024"
+---
+
+I have a [long](https://sallylait.com/blog/2013/01/17/my-way-or-the-highway/) history of being pretty opinionated on Telltale games, yet have only actually played a few of them. I think I dabbled with the Walking Dead, Wolf Among Us, and Game of Thrones series, without making any progress because of my frustrations with the mechanics, before eventually managing to complete the Borderlands series. To my relief, things have got (mostly!) a lot better on some of the elements that I previously took issue with. I enjoyed the stories in this release, both Drummer's and the short little Avasarala scenario, which was probably helped by them being two of my favourite characters. I also enjoyed the environment design and that there were some elements of puzzles, but was most pleasantly surprised to see that I could a. invert the Y axis (dealbreaker, couldn't in some previous games of theirs), b. tweak accessibility settings for the dialogue and quick time events. 
+
+However, I _wasn't_ surprised that there were still frustrations. I'd turned off the time limit for dialogue, but yet any dialogue that used a call mechanism didn't respect that. From the very first mission there were two primary objectives in the menu, but only one showed up on the hud. On doing one, it locked out the other, and I missed a chunk of exploration. Similarly, I tried exploring on the first level but ignoring the marker and trying to fly in a different area still triggered a cutscene, which I really wasn't expecting. And that's my issue. Despite the many, many iterations, these games still feel inconsistent and unclear. Whether it's being asked to collect reaction mass, but having no idea how many there are and if picking up one will lock me out, through to the ambiguous "X will remember that" with no idea whether they took my seemingly neutral dialogue positively or negatively, I feel like this stuff should really have been solved by now. But hey, it was all pleasant enough, and I'll probably be back with similar views when I inevitably play another of the games in 5 more years or so.
