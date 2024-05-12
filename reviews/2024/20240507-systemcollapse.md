@@ -4,7 +4,7 @@ author: Martha Wells
 date: '2024-05-07'
 dateFinished: 7th May 2024
 category: Book
-rating: 3.5
+rating: 3
 tags:
   - review
   - book
