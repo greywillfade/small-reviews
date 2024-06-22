@@ -14,7 +14,7 @@
 
                 {# todo: fix whitespace. collections.review #}
                 {%- for review in collections[2023] | reverse -%}
-                    <div class="card card--{{- review.data.category | lower -}}"><p class="card-title">
+                    <div id='{{ review.data.category }}{{ review.data.date }}' class="card card--{{- review.data.category | lower -}}"><p class="card-title">
                         {%- if (review.data.category == "Book") -%}
                         <span role="img" aria-label="Open book">📖</span> {{ review.data.title }} by {{ review.data.author -}}
                         {%- else -%}

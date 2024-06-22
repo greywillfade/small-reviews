@@ -7,3 +7,4 @@ Here's some info on how to run it: https://www.11ty.dev/docs/usage/
 Use --serve to start up a hot-reloading local web server.
 
 ```npx @11ty/eleventy --serve```
+By default runs on http://localhost:8080/

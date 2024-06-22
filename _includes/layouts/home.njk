@@ -3,6 +3,11 @@
 
                 <div>2024 | <a href="/2023">2023</a> | <a href="/2022">2022</a> | <a href="/2021">2021</a></div>
 
+                <input type="text" id="search" autocomplete="off" />
+                <div id="results"></div>
+                <script src="search.js" async defer></script>
+
+
                 <div class="summary--holder">
                     <div class="summary--book">
                         <p>Books read this year<br/>{{ collections.books2024.length }}</p>
@@ -16,7 +21,7 @@
 
                 {# todo: fix whitespace #}
                 {%- for review in collections[2024] | reverse -%}
-                    <div class="card card--{{- review.data.category | lower -}}"><p class="card-title">
+                    <div id='{{ review.data.category }}{{ review.data.date }}' class="card card--{{- review.data.category | lower -}}"><p class="card-title">
                         {%- if (review.data.category == "Book") -%}
                         <span role="img" aria-label="Open book">📖</span> {{ review.data.title }} by {{ review.data.author -}}
                         {%- else -%}

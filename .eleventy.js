@@ -2,6 +2,7 @@ const util = require("util");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("main.css");
+    eleventyConfig.addPassthroughCopy("search.js");
 
     // Todo: need to work out a way to pass the params dynamically ideally
     eleventyConfig.addCollection("books2024", function(collectionApi) {
