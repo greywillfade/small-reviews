@@ -1,7 +1,52 @@
 [{
+  "title": "The Quantum Thief",
+  "author": "Hannu Rajaniemi",
+  "category": "Book",
+  "date": "2021-08-28"
+  },{
+  "title": "The Calculating Stars",
+  "author": "Mary Robinette Kowal",
+  "category": "Book",
+  "date": "2021-09-02"
+  },{
+  "title": "Psychonauts 2",
+  "author": "",
+  "category": "Game",
+  "date": "2021-09-11"
+  },{
+  "title": "The City We Became",
+  "author": "N.K. Jemesin",
+  "category": "Book",
+  "date": "2021-09-25"
+  },{
+  "title": "The City in the Middle of the Night",
+  "author": "Charlie Jane Anders",
+  "category": "Book",
+  "date": "2021-10-10"
+  },{
+  "title": "Night in the Woods",
+  "author": "",
+  "category": "Game",
+  "date": "2021-10-23"
+  },{
+  "title": "Watchdogs: Legion",
+  "author": "",
+  "category": "Game",
+  "date": "2021-10-23"
+  },{
+  "title": "The Fated Sky",
+  "author": "Mary Robinette Kowal",
+  "category": "Book",
+  "date": "2021-11-02"
+  },{
   "title": "Star Wars Jedi: Fallen Order",
   "author": "",
   "category": "Game",
+  "date": "2021-11-30"
+  },{
+  "title": "Foundation",
+  "author": "Isaac Asimov",
+  "category": "Book",
   "date": "2021-11-30"
   },{
   "title": "All Systems Red (Murderbot diaries 1)",
