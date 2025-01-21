@@ -369,20 +369,10 @@
   "category": "Book",
   "date": "2023-12-22"
   },{
-  "title": "Indiana Jones and the Great Circle",
-  "author": "",
-  "category": "Game",
-  "date": "2024-01-04"
-  },{
   "title": "Plutoshine",
   "author": "Lucy Kissick",
   "category": "Book",
   "date": "2024-01-11"
-  },{
-  "title": "Figment",
-  "author": "",
-  "category": "Game",
-  "date": "2024-01-13"
   },{
   "title": "The Expanse: A Telltale Series",
   "author": "",
@@ -569,8 +559,18 @@
   "category": "Book",
   "date": "2024-12-17"
   },{
+  "title": "Indiana Jones and the Great Circle",
+  "author": "",
+  "category": "Game",
+  "date": "2025-01-04"
+  },{
   "title": "Unconquerable Sun",
   "author": "Kate Elliott",
   "category": "Book",
   "date": "2025-01-05"
+  },{
+  "title": "Figment",
+  "author": "",
+  "category": "Game",
+  "date": "2025-01-13"
   }]

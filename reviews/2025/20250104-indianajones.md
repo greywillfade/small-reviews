@@ -1,6 +1,6 @@
 ---
 title: 'Indiana Jones and the Great Circle'
-date: '2024-01-04'
+date: '2025-01-04'
 dateFinished: 4th January 2025
 category: Game
 rating: 3.5
