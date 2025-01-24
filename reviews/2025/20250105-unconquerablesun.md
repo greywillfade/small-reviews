@@ -1,8 +1,8 @@
 ---
-title: "Unconquerable Sun"
+title: "Unconquerable Sun (Sun chronicles 1)"
 author: Kate Elliott
 date: '2025-01-05'
-dateFinished: 5th Jan 2025
+dateFinished: 5th January 2025
 category: Book
 rating: 4
 tags:
