@@ -1,0 +1,14 @@
+---
+title: "Off to Be the Wizard"
+author: Scott Meyer
+date: '2025-02-16'
+dateFinished: 16th February 2025
+category: Book
+rating: 3
+tags:
+  - review
+  - book
+  - "2025"
+---
+
+This was lent to me by a colleague, and was a fun but fluffy read. Coming off the back of Artemis, it actually reminded me of a similar kind of writing style with wise-cracking, snipey banter and spelled out explanations. It was a very easy read, had some nicely thought out rules for the world, and the premise was interesting. That said, on getting to the end I wasn't grabbed to read more in the series. It's the kind of thing I may pick up again for a long plane journey in the future.
