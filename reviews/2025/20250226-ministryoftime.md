@@ -1,0 +1,16 @@
+---
+title: "The Ministry of Time"
+author: Kaliane Bradley
+date: '2025-02-26'
+dateFinished: 26th February 2025
+category: Book
+rating: 3.5
+tags:
+  - review
+  - book
+  - "2025"
+---
+
+I've been absolutely terrible with updating this recently, so I will admit that I have no idea about the day I finished this book, and also I'm only semi confident on the rating. Oops.
+
+This was a Christmas present, and so I didn't know anything about it beyond the back cover blurb. It follows two main characters; one is a time traveller, the other is their handler in the modern era. One of the elements I really liked is that the time travelling person is based on an actual person in history, there's a photo of him and scarce details, but the author has taken his situation and coloured in the missing areas. Despite being a work of fiction, it somehow added a lot for me. Overall it was an easy an enjoyable read, but I would say that I saw a big reveal coming a mile off, and the oft-hinted at (not a spoiler) "things don't stay rosy" point was incredibly anti-climactic and felt like a very weak reason, and some of the worldbuilding of the present day could have been stronger. But I liked it, and it was an interesting concept.
