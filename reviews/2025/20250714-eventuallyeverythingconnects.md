@@ -1,0 +1,13 @@
+---
+title: "Eventually Everything Connects: Eight Essays on Uncertainty"
+author: "Sarah Firth"
+date: '2025-07-14'
+dateFinished: 14th July 2025
+category: Book
+rating: 4
+tags:
+  - review
+  - book
+  - "2025"
+---
+This was a bithday present that hadn't got to the top of my pile, because as a graphic novel with copious amounts of nudity it didn't feel like an appropriate one to take to a conference, or to read on trains, or in an office. It waited until a period where I was just at home, and I was expecting to fly through it, but actually there's a good amount of words in here. I really enjoyed the author's storytelling, and one essay in particular - the one about letting go of a childhood home - really resonated with an experience I'd had recently.  I enjoyed the art, it was a good level of musing without being too deep or annoying, and it was also interesting hearing about the author's personal stories. 
