@@ -1,0 +1,16 @@
+---
+title: "Automatic Noodle"
+author: "Annalee Newitz"
+date: '2025-12-30'
+dateFinished: 30th December 2025
+category: Book
+rating: 4
+tags:
+  - review
+  - book
+  - "2025"
+---
+
+Another pretty short book, but again one that doesn't mess around when it comes to worldbuilding and characters. This is the story of a post-war (America vs California) existence where robots gain some rights, and a group of them end up running a biang biang noodle restaurant. I'd actually seen this recommended by someone on an end of year list and had added it to my backlog, but then happily got it as a Christmas present!
+
+I really liked the group of characters, and whilst not a great deal happened in the story, it was all focused on exploring their pasts and relationships. The description of the post-war society and the foodie elements were also great, and all round it was like a big warm fuzzy hug. I was a bit sad there wasn't more, but all in all a very enjoyable book to end the year on.

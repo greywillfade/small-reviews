@@ -19,8 +19,8 @@
 	--universal-margin: 0.5rem;
 	--universal-padding: 0.5rem;
 	--universal-border-radius: 0.125rem;
-	--a-link-color: #0277bd;
-	--a-visited-color: #01579b;
+	--a-link-color: rgb(252, 28, 79);
+	--a-visited-color: rgb(252, 28, 79);
 
 	--primary-color-h: 156;
 	--primary-color-s: 50%;
@@ -757,10 +757,14 @@ a:focus {
 	border-radius: 0.75em;
 	margin: var(--universal-margin);
 	padding: var(--universal-padding);
-	white-space: pre-wrap;
+	white-space: pre-line;
 	text-align: center;
 	font-family: 'Noto Sans', sans-serif;
 	font-weight:900;
+  }
+
+  .year-count {
+	font-size:2em;
   }
 
   .summary--game {
@@ -769,10 +773,32 @@ a:focus {
 	border-radius: 0.75em;
 	margin: var(--universal-margin);
 	padding: var(--universal-padding);
-	white-space: pre-wrap;
+	white-space: pre-line;
 	text-align: center;
 	font-family: 'Noto Sans', sans-serif;
 	font-weight:900;
+  }
+
+    .summary--highlight {
+	background-color: var(--feat-color-3);
+	color: var(--fore-color);
+	border-radius: 0.75em;
+	margin: var(--universal-margin);
+	padding: var(--universal-padding);
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight:900;
+  }
+
+  .summary--highlight ul {
+	width:90%; text-align:left;
+	font-size: 1.1em;
+	font-weight: 400;
+	 list-style-type: none; 
+  }
+
+  .summary--highlight ul a {
+	color: var(--feat-color-2);
   }
 
 .card {
@@ -1255,7 +1281,7 @@ button.large,
 	--nav-hover-back-color: #f0f0f0;
 	--nav-fore-color: #444;
 	--nav-border-color: #ddd;
-	--nav-link-color: #0277bd;
+	--nav-link-color: rgb(252, 28, 79);
 	--footer-fore-color: #f8f8f8;
 	--footer-back-color: #f8f8f8;
 	--footer-border-color: #ddd;
