@@ -6,7 +6,7 @@
       posts.forEach((post) => {
         let outStr = "";
         let outLink = "/" + post.date.substr(0,4);
-        if(outLink.substr(1,4) == new Date().getFullYear()) {outLink = "";}
+        if(outLink.substring(1,4) == new Date().getFullYear()) {outLink = "";}
         console.log(outLink);
         if (
           post.title.toLowerCase().includes(searchString) ||

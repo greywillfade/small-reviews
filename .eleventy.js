@@ -5,6 +5,14 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("search.js");
 
     // Todo: need to work out a way to pass the params dynamically ideally
+    eleventyConfig.addCollection("books2026", function(collectionApi) {
+        return collectionApi.getFilteredByTags("book", "2026");
+    });
+
+    eleventyConfig.addCollection("games2026", function(collectionApi) {
+        return collectionApi.getFilteredByTags("game", "2026");
+    });
+
     eleventyConfig.addCollection("books2025", function(collectionApi) {
         return collectionApi.getFilteredByTags("book", "2025");
     });
