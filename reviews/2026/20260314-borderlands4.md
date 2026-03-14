@@ -1,0 +1,19 @@
+---
+title: 'Borderlands 4'
+date: '2026-03-14'
+dateFinished: 14th March 2026
+category: Game
+rating: 3.5
+tags:
+  - review
+  - game
+  - "2026"
+---
+
+After a couple of put downs where I lost interest in favour of something else, I think it's finally the point to call time on this game. I haven't even got all of the collectables. 
+
+The main thing was the story just wasn't there for me on this. I (as usual) played a load of side missions rather than prioritising the story, but after a while it all just felt so disjointed and disengaging that I flipped over and solely ran through the story. That was better, but overall for some reason I found this a lot less fun than previous games. I missed playing co-op with someone like I had in the past too, but even with that I think I still would have struggled. 
+
+There are also some very, very annoying and clunky aspects of the game. The navigation system is a huge one, and with such an expansive map with difficult to reach areas, getting a directional path straight into an inaccessible cliff face all too often was a big pain. Money was previously more important (for upgrades), but this time it feels utterly pointless. I'm the kind of person who would previously backtrack and do multiple vending machine runs; this time I found myself not even picking up purples once I'd got to max level and had a setup I liked; there's just no benefit.
+
+Am I glad I played this? I guess? I do enjoy Borderlands generally, and this has kept me entertained. But is it a highlight of the series, or even my year so far? Nope. I'm looking forward to regaining harddrive space and finding something else to jump into.
