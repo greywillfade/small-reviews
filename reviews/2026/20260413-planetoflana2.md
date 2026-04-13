@@ -1,0 +1,17 @@
+---
+title: 'Planet of Lana II'
+date: '2026-04-13'
+dateFinished: 13th April 2026
+category: Game
+rating: 3
+tags:
+  - review
+  - game
+  - "2026"
+---
+
+Off the back of my last game being a bit dull I saw this come out and found myself drawn to it, even though I didn't really _love_ the first one. Having closed off the story and nabbed all the achievements, this one is unfortunately more of the same without any major leaps forward. It's chill and pretty, but a bit tedious for me.
+
+I again actually really like the premise and the world, and the levels with some of the backstory explained were probably my favourite part. I also liked some of the new mechanics, like controlling the fish, and the block puzzles. Fundamentally though it was still a lot of running left or right, there are still dull samey 'filler' bits like pulling basic ropes down or having to climb on movable items to break up some of the running, and not proper puzzles for my liking. Also it felt very against the overall vibe to have an end boss fight!
+
+It ends on a cliffhanger storywise so I'm guessing there will be some kind of third and final game, but definitely not one I'd be rushing for.
