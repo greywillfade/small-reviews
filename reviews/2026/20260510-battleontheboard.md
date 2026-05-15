@@ -1,0 +1,16 @@
+---
+title: "It's a battle on the board"
+author: "Debra Allcock Tyler"
+date: '2026-05-10'
+dateFinished: 10th May 2026
+category: Book
+rating: 3.5
+tags:
+  - review
+  - book
+  - "2026"
+---
+
+This read was a recommendation after I asked some people in my circles for any advice on starting a Trustee position, and it was a good one. The book is packed with a full range of considerations, but is very practical. On finishing it I had a large number of page ears folded and bits underlined, ready to come back to when I need it (and I'm sure I will).
+
+My score's ok but a bit lower, mostly because it's still a slog to get through work books rather than fiction, but in terms of a primer on the topic this one is great.
