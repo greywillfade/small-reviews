@@ -1,20 +1,57 @@
+{% set yearBooks = collections.books | withTag(year) %}
+{% set yearGames = collections.games | withTag(year) %}
+
 <div class="App">
-    <div class="container">
 
-    <header>
-        <h1 class="logo">
-            <span role="img" aria-label="Stack of books">📚</span> <span class="logo-text">Small reviews</span>
-        </h1>
-    </header>
+    <div class="top-strip">
+        <span class="top-strip-left"><a href="/"><span role="img" aria-label="Home">🏠</span> Small Reviews</a></span>
+        <span class="top-strip-right">
+            <input type="search" id="search" autocomplete="off" placeholder="Search..." style="max-width: 250px" />
+            <script src="search.js" async defer></script>
+            
+        </span>
+    </div>
 
-    <div class="container-inner">
-        <div class="cards">
+    <div class="hero">
+        <div class="hero-inner">
+            <p class="hero-eyebrow">Sally's personal reading &amp; gaming log</p>
+            <h1>Small <em>Reviews</em></h1>
+            <p class="hero-desc">Thoughts on books and games I've finished and wanted to capture for my own future reference. Site started mid-2021.</p>
+            <div id="results"></div>
+        </div>
+    </div>
 
-                <div class="card-intro">
-                    <p>Here's some thoughts on things I've finished and felt like I wanted to capture for my future reference.</p>
-                    <p>⭐: actively disliked this<br />
-                    ⭐⭐: meh<br />
-                    ⭐⭐⭐: enjoyable but not notable<br />
-                    ⭐⭐⭐⭐: really great; would recommend<br />
-                    ⭐⭐⭐⭐⭐: utterly brilliant!</p>
-                </div>
+    <div class="main-wrap">
+
+        <nav class="year-bar">
+            <a href="/" class="{{ 'active' if page.url == '/' }}">2026</a>
+            <a href="/2025/" class="{{ 'active' if page.url == '/2025/' }}">2025</a>
+            <a href="/2024/" class="{{ 'active' if page.url == '/2024/' }}">2024</a>
+            <a href="/2023/" class="{{ 'active' if page.url == '/2023/' }}">2023</a>
+            <a href="/2022/" class="{{ 'active' if page.url == '/2022/' }}">2022</a>
+            <a href="/2021/" class="{{ 'active' if page.url == '/2021/' }}">2021</a>
+        </nav>
+
+        <div class="meta-row">
+        <div class="rating-key">
+            <h3>Rating scale</h3>
+            <div class="key-items">
+            <span><span class="s">★</span> actively disliked this</span>
+            <span><span class="s">★★</span> meh</span>
+            <span><span class="s">★★★</span> enjoyable but not notable</span>
+            <span><span class="s">★★★★</span> really great; would recommend</span>
+            <span><span class="s">★★★★★</span> utterly brilliant!</span>
+            </div>
+        </div>
+
+        <div class="stats-side">
+            <div class="stat-item">
+                <span class="n">{{ yearBooks.length }}</span>
+                <span class="l">Books read</span>
+            </div>
+            <div class="stat-item">
+                <span class="n">{{ yearGames.length }}</span>
+                <span class="l">Games played</span>
+            </div>
+        </div>
+    </div>

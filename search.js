@@ -1,7 +1,7 @@
 (async () => {
     document.getElementById('search').addEventListener('keyup', (event) => {
       const searchString = event.target.value.toLowerCase()
-      const results = []
+      const results = ['<hr/>']
 
       posts.forEach((post) => {
         let outStr = "";

@@ -3,148 +3,481 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#ffafcc" />
     <meta
       name="description"
-      content="A tiny project for me to keep track of things I've had thoughts about after finishing them"
+      content="A tiny project for Sally Lait to keep track of games played and books read"
     />
+    <title>📚🎮 Small Reviews</title>
+    
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400;1,9..144,600&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/main.css" />
-
-    <title>Small Reviews</title>
+    
   </head>
   <body>
+
+
+
 <div class="App">
-    <div class="container">
 
-    <header>
-        <h1 class="logo">
-            <span role="img" aria-label="Stack of books">📚</span> <span class="logo-text">Small reviews</span>
-        </h1>
-    </header>
+    <div class="top-strip">
+        <span class="top-strip-left"><a href="/"><span role="img" aria-label="Home">🏠</span> Small Reviews</a></span>
+        <span class="top-strip-right">
+            <input type="search" id="search" autocomplete="off" placeholder="Search..." style="max-width: 250px" />
+            <script src="search.js" async defer></script>
+            
+        </span>
+    </div>
 
-    <div class="container-inner">
-        <div class="cards">
+    <div class="hero">
+        <div class="hero-inner">
+            <p class="hero-eyebrow">Sally's personal reading &amp; gaming log</p>
+            <h1>Small <em>Reviews</em></h1>
+            <p class="hero-desc">Thoughts on books and games I've finished and wanted to capture for my own future reference. Site started mid-2021.</p>
+            <div id="results"></div>
+        </div>
+    </div>
 
-                <div class="card-intro">
-                    <p>Here's some thoughts on things I've finished and felt like I wanted to capture for my future reference.</p>
-                    <p>⭐: actively disliked this<br />
-                    ⭐⭐: meh<br />
-                    ⭐⭐⭐: enjoyable but not notable<br />
-                    ⭐⭐⭐⭐: really great; would recommend<br />
-                    ⭐⭐⭐⭐⭐: utterly brilliant!</p>
-                </div>
+    <div class="main-wrap">
 
-                <div>2026 | <a href="/2025">2025</a> | <a href="/2024">2024</a> | <a href="/2023">2023</a> | <a href="/2022">2022</a> | <a href="/2021">2021</a></div>
+        <nav class="year-bar">
+            <a href="/" class="active">2026</a>
+            <a href="/2025/" class="">2025</a>
+            <a href="/2024/" class="">2024</a>
+            <a href="/2023/" class="">2023</a>
+            <a href="/2022/" class="">2022</a>
+            <a href="/2021/" class="">2021</a>
+        </nav>
 
-                <input type="search" id="search" autocomplete="off" placeholder="Search..." style="max-width: 250px" />
-                <div id="results"></div>
-                <script src="search.js" async defer></script>
+        <div class="meta-row">
+        <div class="rating-key">
+            <h3>Rating scale</h3>
+            <div class="key-items">
+            <span><span class="s">★</span> actively disliked this</span>
+            <span><span class="s">★★</span> meh</span>
+            <span><span class="s">★★★</span> enjoyable but not notable</span>
+            <span><span class="s">★★★★</span> really great; would recommend</span>
+            <span><span class="s">★★★★★</span> utterly brilliant!</span>
+            </div>
+        </div>
 
+        <div class="stats-side">
+            <div class="stat-item">
+                <span class="n">21</span>
+                <span class="l">Books read</span>
+            </div>
+            <div class="stat-item">
+                <span class="n">5</span>
+                <span class="l">Games played</span>
+            </div>
+        </div>
+    </div>
 
-                <div class="summary--holder">
-                    <div class="summary--book">
-                        <p>Books read this year</p>
-                        <p class="year-count">21</p>
-                    </div>
+    <div class="highlights-bar">
+        <div>
+        <strong>Year's Highlights</strong>
+        <p>TBC!</p>
+        </div>
+    </div>
 
-                    <div class="summary--game">
-                        <p>Games played this year</p>
-                        <p class="year-count">5</p>
-                    </div>
+    <div class="section-head">
+      <h2>2026 entries</h2>
+    </div>
 
-                    <div class="summary--highlight">
-                        <p>Year's highlights:</p>
-                            <ul>
-                            <li>TBC!</a></li>
-                            </ul>
-                    </div>
-                </div>
-
-                <div id='Book2026-08-15' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Left Hand of Darkness by Ursula K. Le Guin</p><p>Finished: 15th August 2026</p><div class="stars stars--book" style="--rating:3"></div><p>This book grew on me in the last half, but overall I wanted to like it more than I did. It's a very clever book, one of detailed, non-hand-holding world building with a lot of local dialect terms and interesting progressive concepts for the time it was written, but the first half is basically setup. It has the Envoy ('alien' main character) in his role interacting with various natives of Winter, and for a long time I didn't really understand where the plot was going... until it all starts going wrong for the protagonist and we get more of a sense of direction and pacing. Ultimately it had quite a predictable ending, but also one that made sense within the plot. I can see why it's very highly regarded as a book, I just didn't love it sadly.</p>
-</div><div id='Book2026-08-07' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Water Moon by Samantha Sotto Yambao</p><p>Finished: 7th August 2026</p><div class="stars stars--book" style="--rating:2.5"></div><p>Another bit of Japanese-inspired fantasy, but unlike the Watchmaker of Filigree Street and follow up, this one was disappointing. It was billed as a 'Ghibli-esque' adventure, but in reality was just utterly saccharine levels of interactions and dialogue between the (very superficial) main characters. The world and plot just felt like a series of ideas loosely stiched together, and I just never felt invested or like any of it mattered.</p>
+    <div class="entries"><article id='Book2026-08-15' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Left Hand of Darkness by Ursula K. Le Guin</h2>
+                <div class="entry-date">Finished 15th August 2026</div>
+                <div class="entry-body"><p>This book grew on me in the last half, but overall I wanted to like it more than I did. It's a very clever book, one of detailed, non-hand-holding world building with a lot of local dialect terms and interesting progressive concepts for the time it was written, but the first half is basically setup. It has the Envoy ('alien' main character) in his role interacting with various natives of Winter, and for a long time I didn't really understand where the plot was going... until it all starts going wrong for the protagonist and we get more of a sense of direction and pacing. Ultimately it had quite a predictable ending, but also one that made sense within the plot. I can see why it's very highly regarded as a book, I just didn't love it sadly.</p>
+</div>
+            </div>
+            </article><article id='Book2026-08-07' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:2.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Water Moon by Samantha Sotto Yambao</h2>
+                <div class="entry-date">Finished 7th August 2026</div>
+                <div class="entry-body"><p>Another bit of Japanese-inspired fantasy, but unlike the Watchmaker of Filigree Street and follow up, this one was disappointing. It was billed as a 'Ghibli-esque' adventure, but in reality was just utterly saccharine levels of interactions and dialogue between the (very superficial) main characters. The world and plot just felt like a series of ideas loosely stiched together, and I just never felt invested or like any of it mattered.</p>
 <p>For a book so focused on Japan and Japanese culture, it was also very jarring and notable that at the start of one of the chapters there was a Japanese proverb which was just... wrong. Written in both kanji/hiragana and the phonetic romaji version, there were errors in the proverb and the phonetic version not matching up. It's not a major thing, and most readers would never notice at all, but for me it just added to the air of superficiality.</p>
 <p>&quot;一杯目人を酒飲む二杯目は酒酒を飲み三杯は酒人を飲む
 Ippai-me wa hito sake o nomi, nihai-me wa sake sake o nomi, sanbai-me wa sake hito o nomu.&quot;
 (mistakes not my own)</p>
-</div><div id='Book2026-07-30' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Slow Gods by Claire North</p><p>Finished: 30th July 2026</p><div class="stars stars--book" style="--rating:3.5"></div><p>This was a bit of a journey of a read. Unusually for me, I stopped reading part-way through and switched to Murderbot, because I was just finding it a bit slow and unengaging and needed something a bit more comforting. The beginning just didn't grab me, both in terms of writing style generally and the plot, and I was a bit worried it'd be a kind of 2/5 read that I may not actually finish. I'd not read anything by the author before, and I'm not sure what's their style vs what's intentionally written in a bit of a jarring and clunky way because of how the main character is.</p>
+</div>
+            </div>
+            </article><article id='Book2026-07-30' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Slow Gods by Claire North</h2>
+                <div class="entry-date">Finished 30th July 2026</div>
+                <div class="entry-body"><p>This was a bit of a journey of a read. Unusually for me, I stopped reading part-way through and switched to Murderbot, because I was just finding it a bit slow and unengaging and needed something a bit more comforting. The beginning just didn't grab me, both in terms of writing style generally and the plot, and I was a bit worried it'd be a kind of 2/5 read that I may not actually finish. I'd not read anything by the author before, and I'm not sure what's their style vs what's intentionally written in a bit of a jarring and clunky way because of how the main character is.</p>
 <p>On putting down Murderbot I took this up again, and slowly it started to connect a bit more. I went through a moment where it felt a bit like when I read Ninefox Gambit, which didn't fully click with me but then I really liked the sequels. The premise of arcspace and its... challenges... is actually very interesting (even if - light spoilers - it never actually gets fully explained or resolved). There had been a lot of care put into the details about the different societies and cultures, with them all having very clear, fully-fleshed out personalities and uniqueness. I really enjoyed this side of the book, and on learning more about the others, it did put some of the earlier Shine backstory slowness into some better context.</p>
 <p>That said, there's a lot of what felt to me somewhat unnecessary extra details around the edges, and a good chunk of the book feels like episodic, particularly with jumping forward considerable chunks of time. One chapter ends &quot;and that was how I met X and Y&quot; (paraphrasing) to set up the next one, which feels like they should be consequential, but end up as a (literally) very short lived interaction. There's quite a bit of that around the edges of the main threads, and whilst it all comes together quite rapidly right at the end, it never quite got to the &quot;wow&quot; stage.</p>
 <p>So, the good: interesting concepts overall, some nice details around cultures and settings, great characterisation, a story that was interesting once it got going. But set against some slow and somewhat clunky writing in parts (a chapter almost all in caps was also not fun to read on a practical level), pacing being a bit off, some unsatisfying open threads that could have done with a bit more payoff.</p>
-</div><div id='Book2026-07-23' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Platform Decay (Murderbot 8) by Martha Wells</p><p>Finished: 23rd July 2026</p><div class="stars stars--book" style="--rating:3.5"></div><p>I still have regrets from watching that one series of the TV show, and I feel like I'm going to moan about it polluting my character imagination forever now. Anyway. The book.</p>
+</div>
+            </div>
+            </article><article id='Book2026-07-23' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Platform Decay (Murderbot 8) by Martha Wells</h2>
+                <div class="entry-date">Finished 23rd July 2026</div>
+                <div class="entry-body"><p>I still have regrets from watching that one series of the TV show, and I feel like I'm going to moan about it polluting my character imagination forever now. Anyway. The book.</p>
 <p>I hadn't Murderbotted since September last year, so again obviously I've forgotten some details of what happened in the last book, but actually it wasn't too bad this time. This one has some key crossovers with previous other important characters and plot points though, so note to future me that it's worth keeping that in mind.</p>
 <p>Despite that though, this is a pretty standalone extraction-based scenario. It didn't grab me or feel too unique at first, as we've already had 'Murderbot does extraction', and at a couple of points I found myself thinking &quot;I'm still really enjoying reading this and I love Murderbot as much as ever... but would it be better to have fewer, stronger stories, or a clear end point?&quot;. The answer is probably no, as long as there are more I will keep reading them because I'm a sucker for this stuff, but equally this definitely isn't the strongest book. The stakes do get upped towards the end, and there are as always some pretty cool set pieces, plus we get to know even <em>more</em> of the overall cast of people in SecUnit's life. But definitely not up there in the top tier.</p>
-</div><div id='Book2026-07-15' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> A Drop of Corruption by Robert Jackson Bennett</p><p>Finished: 15th July 2026</p><div class="stars stars--book" style="--rating:4.5"></div><p>I went straight into the sequel (thanks also to my husband for the free book) and immediately enjoyed being back in the world. The main characters move to a new area and we see a bit more of their personalities and complexities emerge, plus get to find out some more world building about the Empire and all the bioscience stuff that goes on. In terms of the mystery it's kind of similar to the first book – starting off with a new tricky murder to figure out, which rapidly expands into a much more complex case. Throughout there are again some reveals and new developments that help you feel like you're making progress, although I would say that I found this plot slightly more predictable in terms of big moments. The ending in particular I had suspected was coming, but it still all played out in quite a satisfying way.</p>
+</div>
+            </div>
+            </article><article id='Book2026-07-15' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">A Drop of Corruption by Robert Jackson Bennett</h2>
+                <div class="entry-date">Finished 15th July 2026</div>
+                <div class="entry-body"><p>I went straight into the sequel (thanks also to my husband for the free book) and immediately enjoyed being back in the world. The main characters move to a new area and we see a bit more of their personalities and complexities emerge, plus get to find out some more world building about the Empire and all the bioscience stuff that goes on. In terms of the mystery it's kind of similar to the first book – starting off with a new tricky murder to figure out, which rapidly expands into a much more complex case. Throughout there are again some reveals and new developments that help you feel like you're making progress, although I would say that I found this plot slightly more predictable in terms of big moments. The ending in particular I had suspected was coming, but it still all played out in quite a satisfying way.</p>
 <p>I was so pleased to find out that there's a third book serendipitously coming out soon so I don't have to wait and forget everything (this seems to keep happening, yay), so even though it'll be in hardback (boo) I'm looking forward to getting stuck into that too.</p>
-</div><div id='Game2026-07-07' class="card card--game"><p class="card-title"><span role="img" aria-label="Game controller">🎮</span> Lego Batman 3: Beyond Gotham</p><p>Finished: 7th July 2026</p><div class="stars stars--game" style="--rating:3"></div><p>We've had this game on the go a <em>long</em> time – on the Xbox since August last year, and I think it started getting played by my kid and husband on the Playstation before that. It pops up now and again in the kid's rotation of interest, but given I'm sat inside pretty immobile I was compelled to finally 100% it and consider it personally 'done'.</p>
+</div>
+            </div>
+            </article><article id='Game2026-07-07' class="entry is-game">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Game controller">🎮</span></div>
+                
+                <div class="entry-stars stars stars--game" style="--rating:3"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Game</div>
+                <h2 class="entry-title">Lego Batman 3: Beyond Gotham</h2>
+                <div class="entry-date">Finished 7th July 2026</div>
+                <div class="entry-body"><p>We've had this game on the go a <em>long</em> time – on the Xbox since August last year, and I think it started getting played by my kid and husband on the Playstation before that. It pops up now and again in the kid's rotation of interest, but given I'm sat inside pretty immobile I was compelled to finally 100% it and consider it personally 'done'.</p>
 <p>The game came out in 2014, and so obviously is of that era and doesn't stand up in the same way against Batman Legacy. It's pretty mindless fun in the same way that all the Lego games are, with some grind and tedium, some bugs, some confusing mechanisms, and a lot of annoying replaying to clean up the last collectables. That said, I <em>did</em> finish it all, but there's no way I'm paying even a few quid for the DLC to extend it even more!</p>
-</div><div id='Book2026-07-05' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Tainted Cup by Robert Jackson Bennett</p><p>Finished: 5th July 2026</p><div class="stars stars--book" style="--rating:4"></div><p>Crashing through books at the moment, in advance of finishing my last one I tried to sort through my backlog list and catch up on award nominees to see what may come next. One of the ones that popped up was the sequel to this, which sounded interesting but I wasn't sure that murder mystery was quite the vibe I was after. On checking with my husband to see if he'd previously bought a totally different book that had popped up and sounded familiar, he brought out this, the sequel, and another book. As he'd actually got through the physical book (a rare occurrance!) and there were two <em>right here</em> I thought I'd give it a shot and I'm glad I did!</p>
+</div>
+            </div>
+            </article><article id='Book2026-07-05' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Tainted Cup by Robert Jackson Bennett</h2>
+                <div class="entry-date">Finished 5th July 2026</div>
+                <div class="entry-body"><p>Crashing through books at the moment, in advance of finishing my last one I tried to sort through my backlog list and catch up on award nominees to see what may come next. One of the ones that popped up was the sequel to this, which sounded interesting but I wasn't sure that murder mystery was quite the vibe I was after. On checking with my husband to see if he'd previously bought a totally different book that had popped up and sounded familiar, he brought out this, the sequel, and another book. As he'd actually got through the physical book (a rare occurrance!) and there were two <em>right here</em> I thought I'd give it a shot and I'm glad I did!</p>
 <p>I really liked the idea of the world – one where people live under the Empire, and take up roles based on a mix of aptitude tests and assorted grafts which change things like sense of smell, strength, or in one of the main character's case, an ability to engrave (remember) absolutely everything, permanently. The biology and plant manipulation (e.g. to build buildings... or be used as murder weapons...) was interesting, as was the constant looming threats of leviathans that hang over the region; apparently the source of a lot of the scientific advancements as well as potential doom. I also like books with references, and this starts with a map and a list of titles.</p>
 <p>I really liked the characters too, who were a fun mix of sweary and dgaf, and uptight and diligent (but also blending well with the former). The mystery rolled along at a very good pace, with plenty of smaller reveals and insights helping it feel understandable and like things were progressing, and whilst there were no jaw dropping revelations it all felt very satisfying. I'm going straight into the next one and will be interested to see how the dynamics continue to play out.</p>
-</div><div id='Book2026-06-28' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Katabasis by R. F. Kuang</p><p>Finished: 28th June 2026</p><div class="stars stars--book" style="--rating:4"></div><p>A chunky read which I got through pretty quickly thanks to some hot days indoors and pregnancy-related insomnia.</p>
+</div>
+            </div>
+            </article><article id='Book2026-06-28' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Katabasis by R. F. Kuang</h2>
+                <div class="entry-date">Finished 28th June 2026</div>
+                <div class="entry-body"><p>A chunky read which I got through pretty quickly thanks to some hot days indoors and pregnancy-related insomnia.</p>
 <p>I really liked the world building and the different details when describing Hell (whilst also leaving some of it still to interpretation), but whilst it was apt for the characters I wasn't fully on board with all of the intellectualising, philosophising, and mathematising. The two (three?) main characters were nicely fleshed out, and I did enjoy the balance of the present time being interspersed with flashbacks to learn more about them. Obviously they (on the most part) are incredibly flawed, and there were some slightly uncomfortable but very real parts of the story around power, coercion, misogyny, and self worth. I've thankfully not been deep in academia enough to directly relate to a lot of it in that setting, but in terms of other settings like working in tech it's still apt.</p>
 <p>Ultimately despite some of the heavier themes it was still a fun, engaging, and creative read, and definitely helped me get through some long nights without ever feeling like a slog!</p>
-</div><div id='Book2026-06-21' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Book of Elsewhere by Keanu Reeves &amp; China Miéville</p><p>Finished: 21st June 2026</p><div class="stars stars--book" style="--rating:3"></div><p>This one fluctuated between a 2.5 at the start and a 3 by the end but could have gone either way for me. I'm familiar with but haven't read the BRZRKR series, and maybe I'd have got more out of it if I had, but overall this just left me a bit cold. There were some interesting parts, particularly from the perspective of various companions who'd spent time with the main character over the years, but overall the story felt pretty weak and a bit disjointed. Too many threads, but not enough of a strong core to bring them all back together. It does however get bonus points for what I could only interpret as a 'sad keanu' meme reference at the start of the book where the main character (who is obviously played by Keanu) sits on a bench with his elbows on his knees.</p>
-</div><div id='Game2026-06-12' class="card card--game"><p class="card-title"><span role="img" aria-label="Game controller">🎮</span> Lego Batman: Legacy of the Dark Knight</p><p>Finished: 12th June 2026</p><div class="stars stars--game" style="--rating:5"></div><p>I'm not done with this game yet, I'm still faffing around cleaning up collectibles and messing around in the city with my kid, but as we've finished the main campaign and may be a while I wanted to capture just how good this is. It's SO GOOD.</p>
+</div>
+            </div>
+            </article><article id='Book2026-06-21' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Book of Elsewhere by Keanu Reeves &amp; China Miéville</h2>
+                <div class="entry-date">Finished 21st June 2026</div>
+                <div class="entry-body"><p>This one fluctuated between a 2.5 at the start and a 3 by the end but could have gone either way for me. I'm familiar with but haven't read the BRZRKR series, and maybe I'd have got more out of it if I had, but overall this just left me a bit cold. There were some interesting parts, particularly from the perspective of various companions who'd spent time with the main character over the years, but overall the story felt pretty weak and a bit disjointed. Too many threads, but not enough of a strong core to bring them all back together. It does however get bonus points for what I could only interpret as a 'sad keanu' meme reference at the start of the book where the main character (who is obviously played by Keanu) sits on a bench with his elbows on his knees.</p>
+</div>
+            </div>
+            </article><article id='Game2026-06-12' class="entry is-game">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Game controller">🎮</span></div>
+                
+                <div class="entry-stars stars stars--game" style="--rating:5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Game</div>
+                <h2 class="entry-title">Lego Batman: Legacy of the Dark Knight</h2>
+                <div class="entry-date">Finished 12th June 2026</div>
+                <div class="entry-body"><p>I'm not done with this game yet, I'm still faffing around cleaning up collectibles and messing around in the city with my kid, but as we've finished the main campaign and may be a while I wanted to capture just how good this is. It's SO GOOD.</p>
 <p>First up, the references and memes. Any Lego game that brings the links and references American Psycho has <em>got</em> to get full marks from me, but this is absolutely packed full of genuinely brilliant easter eggs and in-jokes. I watched a video that said how the team must be a mix of extremely knowledgeable with bat lore and Extremely Online and I thoroughly agree. The story is some kind of utterly ridiculous mish mash of several classics, yet somehow it works, and again the references just make it stronger. Getting to play through the museum with Prince playing, through to Begins, fantastically done Arkham game references, and more, it's all just utterly joyous.</p>
 <p>I also want to give a shout out to the game design and attention to detail too. Pretty early on I clocked that when you're running/flying around the city, gold studs are strategically placed to lure you into finding things. They help discovery without making it obvious, and that removes some friction until you can unlock specific locations on the map. There's also little quality of life things, like how I just picked up a key, but then realised the lock needed the Batmobile to pull a car out of the way of the lock. Switching to Batman I did so, expecting my companion (who jumps in the car) to drop the key and have it despawn. To my delight/relief, she kept hold of it. It's a little thing that wouldn't have happened in some of the past games, and really makes a difference.</p>
 <p>I have lots more I could say, and I'll likely think of other highlights that will make me want to come back and edit this, but for now I'm off to clear up all the side questions and reminisce about my beloved Crackdown days whilst trying to find all the hidden Bat orbs.</p>
-</div><div id='Book2026-06-05' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The World We Make by N.K. Jemisin</p><p>Finished: 5th June 2026</p><div class="stars stars--book" style="--rating:3.5"></div><p>I really wish that more sequels included some kind of synopsis or overview. I didn't need it because I flew through them, but the Watchmaker of Filigree series did this <em>very</em> well. Why am I starting with this? Well, because this is another sequel where I read the first one 5 years ago and whilst (even with some online help) I could vaguely remember details and characters, I didn't get the emotional connection that I may have if I'd read them concurrently. Take Manny for example – we get an explanation for his amnesia from book 1, which probably should have been more impactful than it was. Some of the other characters felt very forgettable and backgroundy, and I couldn't remember whether I'd got to know them better before.</p>
+</div>
+            </div>
+            </article><article id='Book2026-06-05' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The World We Make by N.K. Jemisin</h2>
+                <div class="entry-date">Finished 5th June 2026</div>
+                <div class="entry-body"><p>I really wish that more sequels included some kind of synopsis or overview. I didn't need it because I flew through them, but the Watchmaker of Filigree series did this <em>very</em> well. Why am I starting with this? Well, because this is another sequel where I read the first one 5 years ago and whilst (even with some online help) I could vaguely remember details and characters, I didn't get the emotional connection that I may have if I'd read them concurrently. Take Manny for example – we get an explanation for his amnesia from book 1, which probably should have been more impactful than it was. Some of the other characters felt very forgettable and backgroundy, and I couldn't remember whether I'd got to know them better before.</p>
 <p>I just looked up my (very short, I'd only started doing them!) review from the first book which didn't tell me much, but seemed to have similar levels of enjoyment overall. Not my favourite by Jemesin, but an ok read generally.</p>
 <p>Oh, also worth noting that this is probably the most 'woke' book I've read in a long time, and that's saying something considering I read a lot of queer, non-white, lefty leaning stuff! It's unashamedly opinionated, political multicultural, gay/trans, and the only baddies are coded white, which was no problem for me but just flagging as a note for anyone else reading as I can imagine some people <em>hating</em> it because of that 😆</p>
-</div><div id='Book2026-05-10' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> It&#39;s a battle on the board by Debra Allcock Tyler</p><p>Finished: 10th May 2026</p><div class="stars stars--book" style="--rating:3.5"></div><p>This read was a recommendation after I asked some people in my circles for any advice on starting a Trustee position, and it was a good one. The book is packed with a full range of considerations, but is very practical. On finishing it I had a large number of page ears folded and bits underlined, ready to come back to when I need it (and I'm sure I will).</p>
+</div>
+            </div>
+            </article><article id='Book2026-05-10' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">It&#39;s a battle on the board by Debra Allcock Tyler</h2>
+                <div class="entry-date">Finished 10th May 2026</div>
+                <div class="entry-body"><p>This read was a recommendation after I asked some people in my circles for any advice on starting a Trustee position, and it was a good one. The book is packed with a full range of considerations, but is very practical. On finishing it I had a large number of page ears folded and bits underlined, ready to come back to when I need it (and I'm sure I will).</p>
 <p>My score's ok but a bit lower, mostly because it's still a slog to get through work books rather than fiction, but in terms of a primer on the topic this one is great.</p>
-</div><div id='Book2026-04-28' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Lost Future of Pepperharrow by Natasha Pulley</p><p>Finished: 28th April 2026</p><div class="stars stars--book" style="--rating:4.5"></div><p>I had a different book on my fiction pile and fully intended to swap over and start that one, but in the end I decided to continue my run by this author and I'm glad I did. This one directly (with a bit of a gap) continues the story of the two main characters from the first book, although this one is almost entirely set in 1880s Japan. Some of the characters and details are pulled directly from history, other more fantastical elements are decidedly made up. Thaniel's Japanese ability in the timescales was similarly wildly on the fictional side!</p>
+</div>
+            </div>
+            </article><article id='Book2026-04-28' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Lost Future of Pepperharrow by Natasha Pulley</h2>
+                <div class="entry-date">Finished 28th April 2026</div>
+                <div class="entry-body"><p>I had a different book on my fiction pile and fully intended to swap over and start that one, but in the end I decided to continue my run by this author and I'm glad I did. This one directly (with a bit of a gap) continues the story of the two main characters from the first book, although this one is almost entirely set in 1880s Japan. Some of the characters and details are pulled directly from history, other more fantastical elements are decidedly made up. Thaniel's Japanese ability in the timescales was similarly wildly on the fictional side!</p>
 <p>I enjoyed this one even more than the first one, mostly because there's quite a few mysteries and tension, and I genuinely wasn't sure how it was all going to play out. In some ways there are a lot of themes and similarities between The Mars House and this, and between the two stories (counting this arc of two books as one) I'm definitely now a fan of the author's writing.</p>
-</div><div id='Book2026-04-17' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Watchmaker of Filigree Street by Natasha Pulley</p><p>Finished: 17th April 2026</p><div class="stars stars--book" style="--rating:4"></div><p>After finishing my last book, I had a problem. I was dragging that one out, but even then I had to wait a few days for a new book I thought was coming on pre-order... except it turns out that I'd completely missed the part of the release date that said <strong>2027</strong> 😩</p>
+</div>
+            </div>
+            </article><article id='Book2026-04-17' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Watchmaker of Filigree Street by Natasha Pulley</h2>
+                <div class="entry-date">Finished 17th April 2026</div>
+                <div class="entry-body"><p>After finishing my last book, I had a problem. I was dragging that one out, but even then I had to wait a few days for a new book I thought was coming on pre-order... except it turns out that I'd completely missed the part of the release date that said <strong>2027</strong> 😩</p>
 <p>After being book deprived for a few days, I decided to pick this one up off the back of enjoying The Mars House. In the author bio I'd seen that Natasha had spent some time in Japan learning language and researching this book, so figured it would be up my street in that way too.</p>
 <p>I really enjoy the author's writing style in general, and the way the book wrapped itself up was satisfyingly done. However unlike The Mars House this one floundered a bit in the middle for me. It was still enjoyable, but I wasn't really sure where it was going. What started out as a bit of a whodunnit mystery, also totally dropped off the radar riiiiight until the end where there was an underwhelming reveal. It get it, it wasn't the point of the book at all, but all this to say that this definitely felt a bit more clunky than my last read.</p>
 <p>I'd got another book lined up, but I've just found out that there's a sequel to this, set 5 years later. I'll definitely be adding that one into my reading list... although let me just check the year of release!</p>
-</div><div id='Game2026-04-13' class="card card--game"><p class="card-title"><span role="img" aria-label="Game controller">🎮</span> Planet of Lana II</p><p>Finished: 13th April 2026</p><div class="stars stars--game" style="--rating:3"></div><p>Off the back of my last game being a bit dull I saw this come out and found myself drawn to it, even though I didn't really <em>love</em> the first one. Having closed off the story and nabbed all the achievements, this one is unfortunately more of the same without any major leaps forward. It's chill and pretty, but a bit tedious for me.</p>
+</div>
+            </div>
+            </article><article id='Game2026-04-13' class="entry is-game">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Game controller">🎮</span></div>
+                
+                <div class="entry-stars stars stars--game" style="--rating:3"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Game</div>
+                <h2 class="entry-title">Planet of Lana II</h2>
+                <div class="entry-date">Finished 13th April 2026</div>
+                <div class="entry-body"><p>Off the back of my last game being a bit dull I saw this come out and found myself drawn to it, even though I didn't really <em>love</em> the first one. Having closed off the story and nabbed all the achievements, this one is unfortunately more of the same without any major leaps forward. It's chill and pretty, but a bit tedious for me.</p>
 <p>I again actually really like the premise and the world, and the levels with some of the backstory explained were probably my favourite part. I also liked some of the new mechanics, like controlling the fish, and the block puzzles. Fundamentally though it was still a lot of running left or right, there are still dull samey 'filler' bits like pulling basic ropes down or having to climb on movable items to break up some of the running, and not proper puzzles for my liking. Also it felt very against the overall vibe to have an end boss fight!</p>
 <p>It ends on a cliffhanger storywise so I'm guessing there will be some kind of third and final game, but definitely not one I'd be rushing for.</p>
-</div><div id='Book2026-04-01' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Mars House by Natasha Pulley</p><p>Finished: 1st April 2026</p><div class="stars stars--book" style="--rating:4.5"></div><p>I really loved this book, and wasn't expecting to like it that much. I picked it up from my reading list, so it must have had a recommendation from someone to get on there in the first place, and it seemed like an easy read. It was, but I found this being a real page turner with a great world building and some interesting characters, and I found it way more engaging than I was expecting from the blurb alone.</p>
+</div>
+            </div>
+            </article><article id='Book2026-04-01' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Mars House by Natasha Pulley</h2>
+                <div class="entry-date">Finished 1st April 2026</div>
+                <div class="entry-body"><p>I really loved this book, and wasn't expecting to like it that much. I picked it up from my reading list, so it must have had a recommendation from someone to get on there in the first place, and it seemed like an easy read. It was, but I found this being a real page turner with a great world building and some interesting characters, and I found it way more engaging than I was expecting from the blurb alone.</p>
 <p>There's themes of environmental destruction, anti-immigration, disability, a society that's decided to remove the concept of gender, politics, violence, and more, but coupled with ballet and complex interpersonal relationships. I really liked the depth of the main characters, and the only reason I didn't give this a 5 was purely because some of the &quot;big reveals&quot; I could see a mile off, to the point where it felt a bit daft that nobody else in the book did. That said, how it all played out and was explained was still satisfying enough, and I found myself trying to ration getting to the end.</p>
 <p>Just a really great story, good characters, and enjoyable writing that flowed very well for me.</p>
-</div><div id='Book2026-03-21' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Iron Garden Sutra by A.D. Sui</p><p>Finished: 21st March 2026</p><div class="stars stars--book" style="--rating:3.5"></div><p>This was a birthday present, and from the description (sci-fi but horror, scary is not really my thing) it wasn't a book I would have chosen for myself. The blurb does describe it as &quot;something something people who like Becky Chambers&quot; (I do), but that is <em>not</em> a comparison I'd make in the slightest.</p>
+</div>
+            </div>
+            </article><article id='Book2026-03-21' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Iron Garden Sutra by A.D. Sui</h2>
+                <div class="entry-date">Finished 21st March 2026</div>
+                <div class="entry-body"><p>This was a birthday present, and from the description (sci-fi but horror, scary is not really my thing) it wasn't a book I would have chosen for myself. The blurb does describe it as &quot;something something people who like Becky Chambers&quot; (I do), but that is <em>not</em> a comparison I'd make in the slightest.</p>
 <p>Anyway, it's hard to put anything here without spoilers, so if you're not future me, consider yourself potentially spoiled. The author bio talks about how they are interested in death, and there is a lot of death here, to the point where it does reiterate the feeling of futility but also gets a bit repetitive. Maybe I've read too many sci-fi books but the 'murder mystery' element was absolutely obvious riiiiight from the start, and didn't work very well (everyone kept walking around in stupid situations). Outside of that though, I did enjoy a lot of the more interesting relationship-focused content. Iris and his AI was interesting, particularly getting some of the backstory (would have enjoyed more of that and less ship murder). Iris and a person who have an emerging relationship was also pretty well done, and I liked the end section of the book for its, well, humanity.</p>
 <p>At the end I noticed that this is to be part of a series, and whilst this book has only <em>just</em> come out and I'll inevitably forget way too much by the next one, as long as it's not a rehash of the same kind of concept I would consider picking it up.</p>
-</div><div id='Game2026-03-18' class="card card--game"><p class="card-title"><span role="img" aria-label="Game controller">🎮</span> To a T</p><p>Finished: 18th March 2026</p><div class="stars stars--game" style="--rating:2.5"></div><p>After Borderlands I decided to jump into my extensive backlog, and picked this up as something I thought would be short and fluffy. It was both, but unfortunately was just a bit tedious for me. I finished the story chapters last night and don't have any desire to go back and mop up any of the (easily grabbable) achievements I missed.</p>
+</div>
+            </div>
+            </article><article id='Game2026-03-18' class="entry is-game">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Game controller">🎮</span></div>
+                
+                <div class="entry-stars stars stars--game" style="--rating:2.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Game</div>
+                <h2 class="entry-title">To a T</h2>
+                <div class="entry-date">Finished 18th March 2026</div>
+                <div class="entry-body"><p>After Borderlands I decided to jump into my extensive backlog, and picked this up as something I thought would be short and fluffy. It was both, but unfortunately was just a bit tedious for me. I finished the story chapters last night and don't have any desire to go back and mop up any of the (easily grabbable) achievements I missed.</p>
 <p>The story is quirky: you are a person stuck in the shape of a T. You go about your life, and weird things start happening. It gets quirkier. Now, I appreciate quirk, but this just lacked cohesion for me, and the chapters felt too much like a slog for there to be any kind of story payoff. I know it's all a bit silly, but I also didn't like the whole &quot;mean bullies are suddenly your friends&quot; plot point.</p>
 <p>Getting around, even when you have your unicyle, feels clunky as the roads rotate around you and the map requires mental gymnastics to match up. There's a <em>lot</em> of button mashing dialogue skipping, slow running through areas (mushroom forest level), and routine world building things like putting on and taking off shoes that take up time and just aren't very fun. What unique activities there are in the course of the game are sometimes weirdly very hard, but without any of the fun to get you to want to keep trying to perfect it.</p>
-</div><div id='Game2026-03-14' class="card card--game"><p class="card-title"><span role="img" aria-label="Game controller">🎮</span> Borderlands 4</p><p>Finished: 14th March 2026</p><div class="stars stars--game" style="--rating:3.5"></div><p>After a couple of put downs where I lost interest in favour of something else, I think it's finally the point to call time on this game. I haven't even got all of the collectables.</p>
+</div>
+            </div>
+            </article><article id='Game2026-03-14' class="entry is-game">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Game controller">🎮</span></div>
+                
+                <div class="entry-stars stars stars--game" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Game</div>
+                <h2 class="entry-title">Borderlands 4</h2>
+                <div class="entry-date">Finished 14th March 2026</div>
+                <div class="entry-body"><p>After a couple of put downs where I lost interest in favour of something else, I think it's finally the point to call time on this game. I haven't even got all of the collectables.</p>
 <p>The main thing was the story just wasn't there for me on this. I (as usual) played a load of side missions rather than prioritising the story, but after a while it all just felt so disjointed and disengaging that I flipped over and solely ran through the story. That was better, but overall for some reason I found this a lot less fun than previous games. I missed playing co-op with someone like I had in the past too, but even with that I think I still would have struggled.</p>
 <p>There are also some very, very annoying and clunky aspects of the game. The navigation system is a huge one, and with such an expansive map with difficult to reach areas, getting a directional path straight into an inaccessible cliff face all too often was a big pain. Money was previously more important (for upgrades), but this time it feels utterly pointless. I'm the kind of person who would previously backtrack and do multiple vending machine runs; this time I found myself not even picking up purples once I'd got to max level and had a setup I liked; there's just no benefit.</p>
 <p>Am I glad I played this? I guess? I do enjoy Borderlands generally, and this has kept me entertained. But is it a highlight of the series, or even my year so far? Nope. I'm looking forward to regaining harddrive space and finding something else to jump into.</p>
-</div><div id='Book2026-03-10' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Death of the Author by Nnedi Okorafor</p><p>Finished: 10th March 2026</p><div class="stars stars--book" style="--rating:4.5"></div><p>A paraplegic Black author finds success writing a beloved sci-fi novel about a humanoid robot and a bodiless one, plus all of her personal drama along the way.</p>
+</div>
+            </div>
+            </article><article id='Book2026-03-10' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Death of the Author by Nnedi Okorafor</h2>
+                <div class="entry-date">Finished 10th March 2026</div>
+                <div class="entry-body"><p>A paraplegic Black author finds success writing a beloved sci-fi novel about a humanoid robot and a bodiless one, plus all of her personal drama along the way.</p>
 <p>Given so much of the context of this book and commentary on critique, it feels a bit weird writing a review, even a personal one. But I really, really liked this book. It was 400+ pages long so there was time for depth, but the characters, the stories, the cultural references, and the fact that there were basically two books plus interviews jammed in were all really impressive. I'd enjoyed Nnedi's writing in Binti, but the length of this book let everything breathe in a really great way. In contrast to my previous read, the ending of this was open-ended, contained a big twist I didn't see coming, and yet was still satisfying. I really liked Zelu in all her messy glory, and I suspect I'll re-read this at some point in the future to try to see it with different eyes having got to the finish.</p>
-</div><div id='Book2026-03-04' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Rose/House by Arkady Martine</p><p>Finished: 4th March 2026</p><div class="stars stars--book" style="--rating:3.5"></div><p>This quick read was on course for 4+ right up until the end, where it kind of fell down in a bit of an unsatisfying fever dream. The premise was intriguing: a murder mystery set within a beautiful, AI 'haunted' house that only one person could enter, and who had an alibi. The characters, including the AI itself, were built up rapidly and were interesting on their own and together. I flew though it, really enjoying the setting and the writing. But then ultimately the end comes, there's a couple of kind of explanations, but a lot is left as very open threads... unsatisfyingly so. This is a memorable book that I think will stay with me, and I really wanted to score higher, but I just wished I'd closed it thinking &quot;wow!&quot; rather than being a bit disappointed.</p>
-</div><div id='Book2026-02-26' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Blindsight by Peter Watts</p><p>Finished: 26th February 2026</p><div class="stars stars--book" style="--rating:2.5"></div><p>I feel a bit bad about this review, as the book was shared with me by a friend/ex-colleague, although he did present it with something like &quot;I'm not sure I liked this book&quot; so I guess it's also to be expected! It's also partly the reason why the book, and its semi-sequel had sat on my pile of unread books for 5 months.</p>
+</div>
+            </div>
+            </article><article id='Book2026-03-04' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Rose/House by Arkady Martine</h2>
+                <div class="entry-date">Finished 4th March 2026</div>
+                <div class="entry-body"><p>This quick read was on course for 4+ right up until the end, where it kind of fell down in a bit of an unsatisfying fever dream. The premise was intriguing: a murder mystery set within a beautiful, AI 'haunted' house that only one person could enter, and who had an alibi. The characters, including the AI itself, were built up rapidly and were interesting on their own and together. I flew though it, really enjoying the setting and the writing. But then ultimately the end comes, there's a couple of kind of explanations, but a lot is left as very open threads... unsatisfyingly so. This is a memorable book that I think will stay with me, and I really wanted to score higher, but I just wished I'd closed it thinking &quot;wow!&quot; rather than being a bit disappointed.</p>
+</div>
+            </div>
+            </article><article id='Book2026-02-26' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:2.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Blindsight by Peter Watts</h2>
+                <div class="entry-date">Finished 26th February 2026</div>
+                <div class="entry-body"><p>I feel a bit bad about this review, as the book was shared with me by a friend/ex-colleague, although he did present it with something like &quot;I'm not sure I liked this book&quot; so I guess it's also to be expected! It's also partly the reason why the book, and its semi-sequel had sat on my pile of unread books for 5 months.</p>
 <p>Alien stuff happens on Earth, an eclectic mix of people are sent off after them to do... something, and obviously it all turns out badly. There are also vampires, for some reason. It felt very, very slow to me, not great storytelling, and not a lot actually happens until quite late on in the book. The 'hard science' wasn't too much of a slog, but what I did find clunky was that the book is peppered with half-explanations, some of which you come to understand, but some you don't. Yes, imagination is a thing too, but overall it felt gappy and untintentionally vague rather than deliberately encouraging reader creativity.</p>
 <p>The characters were pretty much all awful, and in particular there's an assault at one point which just felt unnecessary. I get the hypothetical reasoning behind it, but much of the book was people being awful to each other (and to aliens unnecessarily) with some 'justification', and it all just left me cold. I had a few bouts of night insomnia during reading this, and never did I experience &quot;just one more chapter&quot;, more &quot;ok I can sleep now&quot;.</p>
 <p>I was given another book at the same time, Echopraxia, which is a &quot;sidequel&quot; to this one. Needless to say I've ordered some other books rather than starting that one.</p>
-</div><div id='Book2026-02-07' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Ingenious and the End of Days by J.Y. Sam</p><p>Finished: 7th February 2026</p><div class="stars stars--book" style="--rating:3.5"></div><p>The end of the trilogy, and whilst I had high hopes it didn't quite live up to the previous one in terms of enjoyment for me. Some of that was due to the even darker turn things take – the book opens with (and has repeated references to) child sexual abuse and trafficing, and there's points in the book with references to rape, dying from cancer, and a baby gets shot up badly. It's again very dark stuff, and definitely not a series I'd recommend to anyone too young.</p>
+</div>
+            </div>
+            </article><article id='Book2026-02-07' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Ingenious and the End of Days by J.Y. Sam</h2>
+                <div class="entry-date">Finished 7th February 2026</div>
+                <div class="entry-body"><p>The end of the trilogy, and whilst I had high hopes it didn't quite live up to the previous one in terms of enjoyment for me. Some of that was due to the even darker turn things take – the book opens with (and has repeated references to) child sexual abuse and trafficing, and there's points in the book with references to rape, dying from cancer, and a baby gets shot up badly. It's again very dark stuff, and definitely not a series I'd recommend to anyone too young.</p>
 <p>That said, the main reason I enjoyed it less was that at some point everything starts going wrong, and just stays wrong, which totally changes the flow of the plot. You end up going from rescue/escapes, to capture, to more, and it gets a bit repetitive and a bit of a slog when heavily leaning into the &quot;we're all doomed&quot; prophecy. The ending itself also felt a bit cheap and like a waste. It didn't exactly invalidate the reading experience, but I definitely feel like it could have been done in a more effective way.</p>
 <p>Overall I really enjoyed the series, and I've found them to be really good reads. But definitely not one to go into without content warnings, and this certainly isn't a happy way to wrap up the trilogy!</p>
-</div><div id='Book2026-01-31' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Ingenious and the Heart of Shattered Glass by J.Y. Sam</p><p>Finished: 31st January 2026</p><div class="stars stars--book" style="--rating:4"></div><p>This was my favourite book in the series. We get some more children with very different backgrounds introduced, a mission into the jungle, medical issues, and a new baddie.</p>
+</div>
+            </div>
+            </article><article id='Book2026-01-31' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Ingenious and the Heart of Shattered Glass by J.Y. Sam</h2>
+                <div class="entry-date">Finished 31st January 2026</div>
+                <div class="entry-body"><p>This was my favourite book in the series. We get some more children with very different backgrounds introduced, a mission into the jungle, medical issues, and a new baddie.</p>
 <p>The animals feature even more in this one, with whole sections dedicated to their perspectives, which can sometimes go on a bit long. There's again a lot of death and nasty things happening, so it's not an entirely happy read, but again really quite captivating and easy to get through.</p>
-</div><div id='Book2026-01-26' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Ingenious and the Colour of Life by J.Y. Sam</p><p>Finished: 26th January 2026</p><div class="stars stars--book" style="--rating:3.5"></div><p>I've procrastinated on this book for a long time. It was a read I picked up from my office's book exchange before I left, so I'd probably had it since August. At the time I picked it up for a fluffy train read (genius teenagers with abilities, nature), but then the YA perception actually ended up putting me off it when I was struggling to pick up books.</p>
+</div>
+            </div>
+            </article><article id='Book2026-01-26' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Ingenious and the Colour of Life by J.Y. Sam</h2>
+                <div class="entry-date">Finished 26th January 2026</div>
+                <div class="entry-body"><p>I've procrastinated on this book for a long time. It was a read I picked up from my office's book exchange before I left, so I'd probably had it since August. At the time I picked it up for a fluffy train read (genius teenagers with abilities, nature), but then the YA perception actually ended up putting me off it when I was struggling to pick up books.</p>
 <p>Although this has been labelled online as YA, the whole series is pretty bloody dark. The opening chapter deals with the attempted murder of a young child, and there's a lot of that level of thing. There are a lot of characters, but they're all individual and really well done. The plot is captivating and flows well, and it was a really engaging read. I enjoyed how the animals also get their own perspective, although again you need to be ok with animal death. The themes of ethics, natural world/climate change, religion, relationships, and technology crop up throughout. And whilst this wasn't my favourite book in the series I immediately bought the next one as I was enjoying the world.</p>
-</div><div id='Book2026-01-21' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Phoenix Project by Gene Kim, George Spafford, and Kevin Behr</p><p>Finished: 21st January 2026</p><div class="stars stars--book" style="--rating:3"></div><p>This is one of those mythical books I semi-guiltily felt like I should have read a long time ago, because it's a &quot;work book&quot; disguised as a novel. Should I have read it a long time ago? Meh, maybe, and I may have learnt a bit more from it had I done so...but I may also have picked up some bad habits. The story is ok, the concepts it shares are relatable and recognisable, but the writing and characters are not great. The culture in the company is undoubtedly toxic on so many levels, and whilst the book's trying to share a lot of wisdom, I feel it inadvertently ends up pushing other messages too through some blind spots. My litmus test is usually &quot;do I want to read more in the series?&quot; and in this instance I'll probably skip it.</p>
-</div>        </div>
-    </div>
+</div>
+            </div>
+            </article><article id='Book2026-01-21' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Phoenix Project by Gene Kim, George Spafford, and Kevin Behr</h2>
+                <div class="entry-date">Finished 21st January 2026</div>
+                <div class="entry-body"><p>This is one of those mythical books I semi-guiltily felt like I should have read a long time ago, because it's a &quot;work book&quot; disguised as a novel. Should I have read it a long time ago? Meh, maybe, and I may have learnt a bit more from it had I done so...but I may also have picked up some bad habits. The story is ok, the concepts it shares are relatable and recognisable, but the writing and characters are not great. The culture in the company is undoubtedly toxic on so many levels, and whilst the book's trying to share a lot of wisdom, I feel it inadvertently ends up pushing other messages too through some blind spots. My litmus test is usually &quot;do I want to read more in the series?&quot; and in this instance I'll probably skip it.</p>
+</div>
+            </div>
+            </article></div>
 
-    <footer>
-        <p>Site by <a href="https://sally.dev">Sally</a> for myself</p>
-    </footer>
-    </div>
+  <footer>
+    <p>Site by and &copy; <a href="https://sally.dev">Sally Lait</a>.</p>
+  </footer>
+
 </div>
 </body>
 </html>

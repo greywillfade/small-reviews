@@ -1,27 +1,36 @@
 {% include "partials/base.njk" %}
 {% include "partials/headerintro.njk" %}
-                <div><a href="/">2026</a> | <a href="/2025">2025</a> | <a href="/2024">2024</a> | <a href="/2023">2023</a> | <a href="/2022">2022</a> | 2021</div>
 
-                <div class="summary--holder">
-                    <div class="summary--book">
-                        <p>Books read this year</p>
-                        <p class="year-count">{{ collections.books2021.length }}</p>
-                    </div>
+    <div class="highlights-bar">
+        <div>
+        <strong>Year's Highlights</strong>
+        <ul>
+            <li>📖 <a href="/2021/#Book2021-12-26">Exit Strategy (Murderbot diaries 4)</a></li>
+            <li>🎮 <a href="/2021/#Game2021-09-11">Psychonauts 2</a></li>
+        </ul>
+        </div>
+    </div>
 
-                    <div class="summary--game">
-                        <p>Games played this year</p>
-                        <p class="year-count">{{ collections.games2021.length }}</p>
-                    </div>
-                </div>
+    <div class="section-head">
+        <h2>2021 entries</h2>
+    </div>
 
-                {# todo: fix whitespace. collections.review #}
-                {%- for review in collections[2021] | reverse -%}
-                    <div id='{{ review.data.category }}{{ review.data.date }}' class="card card--{{- review.data.category | lower -}}"><p class="card-title">
-                        {%- if (review.data.category == "Book") -%}
-                        <span role="img" aria-label="Open book">📖</span> {{ review.data.title }} by {{ review.data.author -}}
-                        {%- else -%}
-                            <span role="img" aria-label="Game controller">🎮</span> {{ review.data.title -}}
-                        {%- endif -%}
-                        </p><p>Finished: {{ review.data.dateFinished -}} </p><div class="stars stars--{{- review.data.category | lower -}}" style="--rating: {{- review.data.rating -}}"></div>{{- review.content | safe -}}</div>
-                {%- endfor -%}
+    <div class="entries">
+
+        {%- for review in collections[2021] | reverse -%}
+            <article id='{{ review.data.category }}{{ review.data.date }}' class="entry is-{{- review.data.category | lower -}}">
+            <div class="entry-aside">
+                <div class="type-icon">{%- if (review.data.category == "Book") -%}<span role="img" aria-label="Open book">📖</span>{%- else -%}<span role="img" aria-label="Game controller">🎮</span>{%- endif -%}</div>
+                
+                <div class="entry-stars stars stars--{{- review.data.category | lower -}}" style="--rating: {{- review.data.rating -}}"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">{%- if (review.data.category == "Book") -%}Book{%- else -%}Game{%- endif -%}</div>
+                <h2 class="entry-title">{%- if (review.data.category == "Book") -%}{{ review.data.title }} by {{ review.data.author -}}{%- else -%}{{ review.data.title -}}{%- endif -%}</h2>
+                <div class="entry-date">Finished {{ review.data.dateFinished -}}</div>
+                <div class="entry-body">{{- review.content | safe -}}</div>
+            </div>
+            </article>
+        {%- endfor -%}
+
 {% include "partials/footer.njk" %}

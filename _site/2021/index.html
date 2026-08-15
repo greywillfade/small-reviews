@@ -3,81 +3,310 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#ffafcc" />
     <meta
       name="description"
-      content="A tiny project for me to keep track of things I've had thoughts about after finishing them"
+      content="A tiny project for Sally Lait to keep track of games played and books read"
     />
+    <title>📚🎮 Small Reviews</title>
+    
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400;1,9..144,600&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/main.css" />
-
-    <title>Small Reviews</title>
+    
   </head>
   <body>
+
+
+
 <div class="App">
-    <div class="container">
 
-    <header>
-        <h1 class="logo">
-            <span role="img" aria-label="Stack of books">📚</span> <span class="logo-text">Small reviews</span>
-        </h1>
-    </header>
-
-    <div class="container-inner">
-        <div class="cards">
-
-                <div class="card-intro">
-                    <p>Here's some thoughts on things I've finished and felt like I wanted to capture for my future reference.</p>
-                    <p>⭐: actively disliked this<br />
-                    ⭐⭐: meh<br />
-                    ⭐⭐⭐: enjoyable but not notable<br />
-                    ⭐⭐⭐⭐: really great; would recommend<br />
-                    ⭐⭐⭐⭐⭐: utterly brilliant!</p>
-                </div>
-                <div><a href="/">2026</a> | <a href="/2025">2025</a> | <a href="/2024">2024</a> | <a href="/2023">2023</a> | <a href="/2022">2022</a> | 2021</div>
-
-                <div class="summary--holder">
-                    <div class="summary--book">
-                        <p>Books read this year</p>
-                        <p class="year-count">11</p>
-                    </div>
-
-                    <div class="summary--game">
-                        <p>Games played this year</p>
-                        <p class="year-count">5</p>
-                    </div>
-                </div>
-
-                <div id='Book2021-12-26' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Home: Habitat, Range, Niche, Territory (Murderbot diaries 4.5) by Martha Wells</p><p>Finished: 26th December 2021</p><div class="stars stars--book" style="--rating:3.5"></div><p>Father Christmas thankfully did enable me further, but on settling in to read I realised that there was actually a short story (yes, I know not technically a book) available to read for free on tor.com. This one breaks with the series and is told from the view of Mensah. It adds an interesting second perspective on a couple of points, but there was something about the writing style and narrative that didn't feel like it fit as well. It felt almost janky after fitting so well with SecUnit's delivery. Still, a nice little addition.</p>
-</div><div id='Book2021-12-26' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Exit Strategy (Murderbot diaries 4) by Martha Wells</p><p>Finished: 21st December 2021</p><div class="stars stars--book" style="--rating:5"></div><p>This concluded my 4-book boxset, and left me sadly Murderbot-less over Christmas until I could find out if Father Christmas would further enable my binge. This one was basically non-stop action, but it also deepened its important relationships and had some really touching interactions. I'm trying to work out why I haven't given any of these 5 stars yet, so hell, it's Christmas, let's go for it!</p>
-</div><div id='Game2021-12-19' class="card card--game"><p class="card-title"><span role="img" aria-label="Game controller">🎮</span> Unpacking</p><p>Finished: 19th December 2021</p><div class="stars stars--game" style="--rating:3.5"></div><p>I'd seen this in my Game Pass list and had made a snarky comment about how a game about unpacking boxes probably wasn't for me, give I still have some unpacked from my last move years ago. A friend's comment on twitter made me think I should give it a go, and I'm glad I did. A lovely, gently, meditative little game with a cute story you interpret pretty much for yourself.</p>
-</div><div id='Book2021-12-18' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Rogue Protocol (Murderbot diaries 3) by Martha Wells</p><p>Finished: 18th December 2021</p><div class="stars stars--book" style="--rating:4"></div><p>Another one done! This one started more slowly and I was thinking it maybe didn't quite have the same hook as the others. But no, after arriving at an abandoned mining facility (what could possibly go wrong?!) it all kicked up a gear and was flat out up to the end. The inevitable twist was pretty predictable, but maybe that's just because I've read too many pessimistic space stories and am suspicious of everything.</p>
-</div><div id='Book2021-12-14' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Artificial Condition (Murderbot diaries 2) by Martha Wells</p><p>Finished: 14th December 2021</p><div class="stars stars--book" style="--rating:4"></div><p>More of the same good stuff, basically could be a complete short story continuation of the last in terms of pacing and tone etc. Enjoyed the addition of ART as another very human not-human.</p>
-</div><div id='Book2021-12-09' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> All Systems Red (Murderbot diaries 1) by Martha Wells</p><p>Finished: 9th December 2021</p><div class="stars stars--book" style="--rating:4"></div><p>Enjoyed this so much I'd bought a box set version of the first 4 before finishing it. Murderbot is just a brilliant character, one who I empathised with from the start, and I want to find out a lot more about. This is a short read and the main criticism seems to be how pricey they are for the length, but I had no criticism in terms of the content. Really enjoyed the setting and how it panned out, looking forward to more.</p>
-</div><div id='Book2021-11-30' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> Foundation by Isaac Asimov</p><p>Finished: 30th November 2021</p><div class="stars stars--book" style="--rating:2.5"></div><p>I know this is pretty much blasphemy, but I was surprised at how little I enjoyed this book. I started reading it after watching the TV show, and for me it's one of the rare times that the show is better than the book. I found his writing style a slog to get through, the stories were unremarkable, and at no point was I dying to read on. It was also really notable that there's not a single woman (even mentioned in passing) until about 80% in. One appears with a non-speaking part, and then the next is a nagging wife character.</p>
-</div><div id='Game2021-11-30' class="card card--game"><p class="card-title"><span role="img" aria-label="Game controller">🎮</span> Star Wars Jedi: Fallen Order</p><p>Finished: 30th November 2021</p><div class="stars stars--game" style="--rating:3"></div><p>Picked this up as part of Game Pass. Story was decent and would have been a solid 'fluff' 3.5 thing to play, but docked points because of the AWFUL interface. Seriously, that map. Omg. Some of the platforming was extremely janky (screw you, slides), and would really have benefitted from some fast travel. Or wayfinding. Or just a better bloody map! Outside of that, grabbed all the achievements and was a fun enough way to pass time.</p>
-</div><div id='Book2021-11-02' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Fated Sky by Mary Robinette Kowal</p><p>Finished: 2nd November 2021</p><div class="stars stars--book" style="--rating:4"></div><p>Flew through this, really easy read as was the first book. Mostly set in space, which I really enjoyed. Liked the character development and greater insight into people's motivations, and how this book continued some really insightful descriptions of topics like privilege. Still found the romantic aspects cringy and clunkily written compared to the rest though!</p>
-</div><div id='Game2021-10-23' class="card card--game"><p class="card-title"><span role="img" aria-label="Game controller">🎮</span> Watchdogs: Legion</p><p>Finished: 23rd October 2021</p><div class="stars stars--game" style="--rating:3.5"></div><p>Enjoyed the 'recruit anyone' mechanic up to a point, but mostly played as the spider drone as with previous games. Achievements are utterly, utterly broken, which was frustrating. Otherwise a decent enough game to pass time, and enjoyed visiting parts of London I knew.</p>
-</div><div id='Game2021-10-23' class="card card--game"><p class="card-title"><span role="img" aria-label="Game controller">🎮</span> Night in the Woods</p><p>Finished: 19th September 2021</p><div class="stars stars--game" style="--rating:3"></div><p>Slow-paced, gentle to verging on dull at points game where you basically press X constantly and read conversations / walk around very slowly. However, I enjoyed getting to know the characters, and the themes of friendship, adulthood, and mental health.</p>
-</div><div id='Book2021-10-10' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The City in the Middle of the Night by Charlie Jane Anders</p><p>Finished: 10th October 2021</p><div class="stars stars--book" style="--rating:3"></div><p>Easy to get into, and enjoyed most of this. Felt it lost its way a bit in Argelo but figured that was part of the pacing. But then the last two chapters just lost me. A bit too weird a payoff, and an unresolved ending that felt like it just gave up. Also Sophie is a dick, and there were tons of weird relationship dynamics that just didn't feel believable or something to get behind.</p>
-</div><div id='Book2021-09-25' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The City We Became by N.K. Jemesin</p><p>Finished: 25th September 2021</p><div class="stars stars--book" style="--rating:3.5"></div><p>Wasn't sure I'd be into it initially as the first chapter or so didn't grab me. However ended up going with it and enjoyed it by the end. Not as <em>&quot;I must read more&quot;</em> as previous books by them, but would consider reading a sequel.</p>
-</div><div id='Game2021-09-11' class="card card--game"><p class="card-title"><span role="img" aria-label="Game controller">🎮</span> Psychonauts 2</p><p>Finished: 11th September 2021</p><div class="stars stars--game" style="--rating:5"></div><p>Fantastic game. So much variety in the level designs (loved the casino minigames, in-book platforming, gameshow... ok all of it). The details were beautiful, and it was also genuinely funny at points. Great story building on but not needing knowledge of 1. Loved it.</p>
-</div><div id='Book2021-09-02' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Calculating Stars by Mary Robinette Kowal</p><p>Finished: 2nd September 2021</p><div class="stars stars--book" style="--rating:4"></div><p>Flew through this book during a week off. Really easy reading, some interesting characters, although wasn't a fan of the really cheesy and sometimes clumsy writing about attraction and sex between the main characters. A lot of the writing on anxiety and prejudice was more deft and resonated. Definitely enough to want to find out what happens next.</p>
-</div><div id='Book2021-08-28' class="card card--book"><p class="card-title"><span role="img" aria-label="Open book">📖</span> The Quantum Thief by Hannu Rajaniemi</p><p>Finished: 28th August 2021</p><div class="stars stars--book" style="--rating:1"></div><p>Just... pretentious stupidness. I stuck with it, and it does get better about halfway in. But it tries to be far more clever than it is. Poorly written, you don't understand half of what's going on, don't care about the characters, and reads as never having met a real woman as there are such caricatures.</p>
-</div>        </div>
+    <div class="top-strip">
+        <span class="top-strip-left"><a href="/"><span role="img" aria-label="Home">🏠</span> Small Reviews</a></span>
+        <span class="top-strip-right">
+            <input type="search" id="search" autocomplete="off" placeholder="Search..." style="max-width: 250px" />
+            <script src="search.js" async defer></script>
+            
+        </span>
     </div>
 
-    <footer>
-        <p>Site by <a href="https://sally.dev">Sally</a> for myself</p>
-    </footer>
+    <div class="hero">
+        <div class="hero-inner">
+            <p class="hero-eyebrow">Sally's personal reading &amp; gaming log</p>
+            <h1>Small <em>Reviews</em></h1>
+            <p class="hero-desc">Thoughts on books and games I've finished and wanted to capture for my own future reference. Site started mid-2021.</p>
+            <div id="results"></div>
+        </div>
     </div>
+
+    <div class="main-wrap">
+
+        <nav class="year-bar">
+            <a href="/" class="">2026</a>
+            <a href="/2025/" class="">2025</a>
+            <a href="/2024/" class="">2024</a>
+            <a href="/2023/" class="">2023</a>
+            <a href="/2022/" class="">2022</a>
+            <a href="/2021/" class="active">2021</a>
+        </nav>
+
+        <div class="meta-row">
+        <div class="rating-key">
+            <h3>Rating scale</h3>
+            <div class="key-items">
+            <span><span class="s">★</span> actively disliked this</span>
+            <span><span class="s">★★</span> meh</span>
+            <span><span class="s">★★★</span> enjoyable but not notable</span>
+            <span><span class="s">★★★★</span> really great; would recommend</span>
+            <span><span class="s">★★★★★</span> utterly brilliant!</span>
+            </div>
+        </div>
+
+        <div class="stats-side">
+            <div class="stat-item">
+                <span class="n">11</span>
+                <span class="l">Books read</span>
+            </div>
+            <div class="stat-item">
+                <span class="n">5</span>
+                <span class="l">Games played</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="highlights-bar">
+        <div>
+        <strong>Year's Highlights</strong>
+        <ul>
+            <li>📖 <a href="/2021/#Book2021-12-26">Exit Strategy (Murderbot diaries 4)</a></li>
+            <li>🎮 <a href="/2021/#Game2021-09-11">Psychonauts 2</a></li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="section-head">
+        <h2>2021 entries</h2>
+    </div>
+
+    <div class="entries"><article id='Book2021-12-26' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Home: Habitat, Range, Niche, Territory (Murderbot diaries 4.5) by Martha Wells</h2>
+                <div class="entry-date">Finished 26th December 2021</div>
+                <div class="entry-body"><p>Father Christmas thankfully did enable me further, but on settling in to read I realised that there was actually a short story (yes, I know not technically a book) available to read for free on tor.com. This one breaks with the series and is told from the view of Mensah. It adds an interesting second perspective on a couple of points, but there was something about the writing style and narrative that didn't feel like it fit as well. It felt almost janky after fitting so well with SecUnit's delivery. Still, a nice little addition.</p>
+</div>
+            </div>
+            </article><article id='Book2021-12-26' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Exit Strategy (Murderbot diaries 4) by Martha Wells</h2>
+                <div class="entry-date">Finished 21st December 2021</div>
+                <div class="entry-body"><p>This concluded my 4-book boxset, and left me sadly Murderbot-less over Christmas until I could find out if Father Christmas would further enable my binge. This one was basically non-stop action, but it also deepened its important relationships and had some really touching interactions. I'm trying to work out why I haven't given any of these 5 stars yet, so hell, it's Christmas, let's go for it!</p>
+</div>
+            </div>
+            </article><article id='Game2021-12-19' class="entry is-game">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Game controller">🎮</span></div>
+                
+                <div class="entry-stars stars stars--game" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Game</div>
+                <h2 class="entry-title">Unpacking</h2>
+                <div class="entry-date">Finished 19th December 2021</div>
+                <div class="entry-body"><p>I'd seen this in my Game Pass list and had made a snarky comment about how a game about unpacking boxes probably wasn't for me, give I still have some unpacked from my last move years ago. A friend's comment on twitter made me think I should give it a go, and I'm glad I did. A lovely, gently, meditative little game with a cute story you interpret pretty much for yourself.</p>
+</div>
+            </div>
+            </article><article id='Book2021-12-18' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Rogue Protocol (Murderbot diaries 3) by Martha Wells</h2>
+                <div class="entry-date">Finished 18th December 2021</div>
+                <div class="entry-body"><p>Another one done! This one started more slowly and I was thinking it maybe didn't quite have the same hook as the others. But no, after arriving at an abandoned mining facility (what could possibly go wrong?!) it all kicked up a gear and was flat out up to the end. The inevitable twist was pretty predictable, but maybe that's just because I've read too many pessimistic space stories and am suspicious of everything.</p>
+</div>
+            </div>
+            </article><article id='Book2021-12-14' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Artificial Condition (Murderbot diaries 2) by Martha Wells</h2>
+                <div class="entry-date">Finished 14th December 2021</div>
+                <div class="entry-body"><p>More of the same good stuff, basically could be a complete short story continuation of the last in terms of pacing and tone etc. Enjoyed the addition of ART as another very human not-human.</p>
+</div>
+            </div>
+            </article><article id='Book2021-12-09' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">All Systems Red (Murderbot diaries 1) by Martha Wells</h2>
+                <div class="entry-date">Finished 9th December 2021</div>
+                <div class="entry-body"><p>Enjoyed this so much I'd bought a box set version of the first 4 before finishing it. Murderbot is just a brilliant character, one who I empathised with from the start, and I want to find out a lot more about. This is a short read and the main criticism seems to be how pricey they are for the length, but I had no criticism in terms of the content. Really enjoyed the setting and how it panned out, looking forward to more.</p>
+</div>
+            </div>
+            </article><article id='Book2021-11-30' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:2.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">Foundation by Isaac Asimov</h2>
+                <div class="entry-date">Finished 30th November 2021</div>
+                <div class="entry-body"><p>I know this is pretty much blasphemy, but I was surprised at how little I enjoyed this book. I started reading it after watching the TV show, and for me it's one of the rare times that the show is better than the book. I found his writing style a slog to get through, the stories were unremarkable, and at no point was I dying to read on. It was also really notable that there's not a single woman (even mentioned in passing) until about 80% in. One appears with a non-speaking part, and then the next is a nagging wife character.</p>
+</div>
+            </div>
+            </article><article id='Game2021-11-30' class="entry is-game">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Game controller">🎮</span></div>
+                
+                <div class="entry-stars stars stars--game" style="--rating:3"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Game</div>
+                <h2 class="entry-title">Star Wars Jedi: Fallen Order</h2>
+                <div class="entry-date">Finished 30th November 2021</div>
+                <div class="entry-body"><p>Picked this up as part of Game Pass. Story was decent and would have been a solid 'fluff' 3.5 thing to play, but docked points because of the AWFUL interface. Seriously, that map. Omg. Some of the platforming was extremely janky (screw you, slides), and would really have benefitted from some fast travel. Or wayfinding. Or just a better bloody map! Outside of that, grabbed all the achievements and was a fun enough way to pass time.</p>
+</div>
+            </div>
+            </article><article id='Book2021-11-02' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Fated Sky by Mary Robinette Kowal</h2>
+                <div class="entry-date">Finished 2nd November 2021</div>
+                <div class="entry-body"><p>Flew through this, really easy read as was the first book. Mostly set in space, which I really enjoyed. Liked the character development and greater insight into people's motivations, and how this book continued some really insightful descriptions of topics like privilege. Still found the romantic aspects cringy and clunkily written compared to the rest though!</p>
+</div>
+            </div>
+            </article><article id='Game2021-10-23' class="entry is-game">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Game controller">🎮</span></div>
+                
+                <div class="entry-stars stars stars--game" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Game</div>
+                <h2 class="entry-title">Watchdogs: Legion</h2>
+                <div class="entry-date">Finished 23rd October 2021</div>
+                <div class="entry-body"><p>Enjoyed the 'recruit anyone' mechanic up to a point, but mostly played as the spider drone as with previous games. Achievements are utterly, utterly broken, which was frustrating. Otherwise a decent enough game to pass time, and enjoyed visiting parts of London I knew.</p>
+</div>
+            </div>
+            </article><article id='Game2021-10-23' class="entry is-game">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Game controller">🎮</span></div>
+                
+                <div class="entry-stars stars stars--game" style="--rating:3"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Game</div>
+                <h2 class="entry-title">Night in the Woods</h2>
+                <div class="entry-date">Finished 19th September 2021</div>
+                <div class="entry-body"><p>Slow-paced, gentle to verging on dull at points game where you basically press X constantly and read conversations / walk around very slowly. However, I enjoyed getting to know the characters, and the themes of friendship, adulthood, and mental health.</p>
+</div>
+            </div>
+            </article><article id='Book2021-10-10' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The City in the Middle of the Night by Charlie Jane Anders</h2>
+                <div class="entry-date">Finished 10th October 2021</div>
+                <div class="entry-body"><p>Easy to get into, and enjoyed most of this. Felt it lost its way a bit in Argelo but figured that was part of the pacing. But then the last two chapters just lost me. A bit too weird a payoff, and an unresolved ending that felt like it just gave up. Also Sophie is a dick, and there were tons of weird relationship dynamics that just didn't feel believable or something to get behind.</p>
+</div>
+            </div>
+            </article><article id='Book2021-09-25' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:3.5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The City We Became by N.K. Jemesin</h2>
+                <div class="entry-date">Finished 25th September 2021</div>
+                <div class="entry-body"><p>Wasn't sure I'd be into it initially as the first chapter or so didn't grab me. However ended up going with it and enjoyed it by the end. Not as <em>&quot;I must read more&quot;</em> as previous books by them, but would consider reading a sequel.</p>
+</div>
+            </div>
+            </article><article id='Game2021-09-11' class="entry is-game">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Game controller">🎮</span></div>
+                
+                <div class="entry-stars stars stars--game" style="--rating:5"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Game</div>
+                <h2 class="entry-title">Psychonauts 2</h2>
+                <div class="entry-date">Finished 11th September 2021</div>
+                <div class="entry-body"><p>Fantastic game. So much variety in the level designs (loved the casino minigames, in-book platforming, gameshow... ok all of it). The details were beautiful, and it was also genuinely funny at points. Great story building on but not needing knowledge of 1. Loved it.</p>
+</div>
+            </div>
+            </article><article id='Book2021-09-02' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:4"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Calculating Stars by Mary Robinette Kowal</h2>
+                <div class="entry-date">Finished 2nd September 2021</div>
+                <div class="entry-body"><p>Flew through this book during a week off. Really easy reading, some interesting characters, although wasn't a fan of the really cheesy and sometimes clumsy writing about attraction and sex between the main characters. A lot of the writing on anxiety and prejudice was more deft and resonated. Definitely enough to want to find out what happens next.</p>
+</div>
+            </div>
+            </article><article id='Book2021-08-28' class="entry is-book">
+            <div class="entry-aside">
+                <div class="type-icon"><span role="img" aria-label="Open book">📖</span></div>
+                
+                <div class="entry-stars stars stars--book" style="--rating:1"></div>
+            </div>
+            <div class="entry-content">
+                <div class="entry-label">Book</div>
+                <h2 class="entry-title">The Quantum Thief by Hannu Rajaniemi</h2>
+                <div class="entry-date">Finished 28th August 2021</div>
+                <div class="entry-body"><p>Just... pretentious stupidness. I stuck with it, and it does get better about halfway in. But it tries to be far more clever than it is. Poorly written, you don't understand half of what's going on, don't care about the characters, and reads as never having met a real woman as there are such caricatures.</p>
+</div>
+            </div>
+            </article></div>
+
+  <footer>
+    <p>Site by and &copy; <a href="https://sally.dev">Sally Lait</a>.</p>
+  </footer>
+
 </div>
 </body>
 </html>

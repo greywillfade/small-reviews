@@ -4,53 +4,16 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("main.css");
     eleventyConfig.addPassthroughCopy("search.js");
 
-    // Todo: need to work out a way to pass the params dynamically ideally
-    eleventyConfig.addCollection("books2026", function(collectionApi) {
-        return collectionApi.getFilteredByTags("book", "2026");
+    eleventyConfig.addFilter("withTag", function(collection, tag) {
+        return collection.filter(item => item.data.tags && item.data.tags.includes(tag));
     });
 
-    eleventyConfig.addCollection("games2026", function(collectionApi) {
-        return collectionApi.getFilteredByTags("game", "2026");
+    eleventyConfig.addCollection("books", function(collectionApi) {
+        return collectionApi.getFilteredByTag("book");
     });
 
-    eleventyConfig.addCollection("books2025", function(collectionApi) {
-        return collectionApi.getFilteredByTags("book", "2025");
-    });
-
-    eleventyConfig.addCollection("games2025", function(collectionApi) {
-        return collectionApi.getFilteredByTags("game", "2025");
-    });
-
-    eleventyConfig.addCollection("books2024", function(collectionApi) {
-        return collectionApi.getFilteredByTags("book", "2024");
-    });
-
-    eleventyConfig.addCollection("games2024", function(collectionApi) {
-        return collectionApi.getFilteredByTags("game", "2024");
-    });
-
-    eleventyConfig.addCollection("books2023", function(collectionApi) {
-        return collectionApi.getFilteredByTags("book", "2023");
-    });
-
-    eleventyConfig.addCollection("games2023", function(collectionApi) {
-        return collectionApi.getFilteredByTags("game", "2023");
-    });
-
-    eleventyConfig.addCollection("books2022", function(collectionApi) {
-        return collectionApi.getFilteredByTags("book", "2022");
-    });
-
-    eleventyConfig.addCollection("games2022", function(collectionApi) {
-        return collectionApi.getFilteredByTags("game", "2022");
-    });
-
-    eleventyConfig.addCollection("books2021", function(collectionApi) {
-        return collectionApi.getFilteredByTags("book", "2021");
-    });
-
-    eleventyConfig.addCollection("games2021", function(collectionApi) {
-        return collectionApi.getFilteredByTags("game", "2021");
+    eleventyConfig.addCollection("games", function(collectionApi) {
+        return collectionApi.getFilteredByTag("game");
     });
 
 };
