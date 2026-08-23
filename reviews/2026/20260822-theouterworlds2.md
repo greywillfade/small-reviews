@@ -1,0 +1,25 @@
+---
+title: 'The Outer Worlds 2'
+date: '2026-08-22'
+dateFinished: 22nd August 2026
+category: Game
+rating: 3.5
+tags:
+  - review
+  - game
+  - "2026"
+---
+
+I really enjoyed this game and wanted to play it all the time... until I didn't. I started it back in _April_, but a combination of not wanting to play shooty games in front of kid 1, early bedtimes, and life stresses meaning that I didn't want the responsibility of a whole other universe on top of everything at home meant that it was very slow progress. 
+
+There was a lot to like, and I enjoyed the setting and the gameplay. But on other fronts there were some missed opportunities, and some frustrating issues.
+
+It's a game which does reward exploration, and felt a lot better in that respect than my most recent open worldy game of Borderlands 4 (which just felt a bit empty at points). In this, if you go hunting around in a cave, more likely than not you'll at least find some resources and a token body to loot. However it's also not without issues. More than once I triggered bugs or other issues from happening to explore around before I was 'meant' to, and it feels like the game could have been a lot smarter on this front.
+
+Another gap for me was the companions. Basically any companion-based system where the banter and personalities aren't Bioware-level feels lacking, and this was a good example. I took characters into settings which absolutely should have got a response, and... tumbleweed. Before the final mission I tried to do a Shepard-esque talk to everyone, but nah, they all just said it wasn't time to talk. As such the companions felt very forgettable, and despite the loyalty missions there were some I felt I didn't really know at all even at the end. 
+
+This bled over into other elements, such as the crafting feeling completely redundant, the majority of armour/weapons/health gadget being unexciting pickups (I played 85% of the game with the same setup and didn't feel incentivised or have the need to branch out), and the special equipment (n-ray scanner etc) generally feeling under-used. I also hit the level cap pretty early so XP was utterly redundant, and I ended up with a massive amount of surplus cash (see above on pickups being dull). It all just felt a bit clunky and unbalanced.
+
+Despite this though some of the more novel aspects were great. I really liked the idea of the dynamic 'flaws' - optional attributes you could choose to take on which gave you both pros but also cons, and which were triggered by your own play style. So for example if you spend a lot of time crouched, you may be offered the "bad knees" flaw, giving you +50% movement speed when crouched, but you emit a 10m radius sound that hostiles can hear and investigate.
+
+Given a bit more time, patience, and energy to play the game in a shorter time period I'd probably have scored it a bit higher. But as it was this was ok while it lasted but not a classic.

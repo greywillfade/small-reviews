@@ -1,0 +1,16 @@
+---
+title: "Across the Sand"
+author: "Hugh Howey"
+date: '2026-08-23'
+dateFinished: 23rd August 2026
+category: Book
+rating: 3.5
+tags:
+  - review
+  - book
+  - "2026"
+---
+
+A LIBRARY book for me! This was the first of my ordered haul to try to counter the ever-increasing expense and lack of book space in my house. I went searching to see if Howey had written anything I'd missed, and it turned out he had. Initially I wasn't sure whether or not I'd read this, as the idea of it blurred into 'Dust' and 'Sand' (two other books from him), but indeed it was a whole new story. It does however follow directly from the events of Sand, which I had read but all the way back in 2014, and no amount of searching for a synopsis fully made me feel like I was remembering enough or getting the full benefit. (Guess what's now next up on my reading pile after digging it out of the depths of a bookshelf...)
+
+It follows an ensemble cast centred around two families on opposite sides of a conflict, who unsurprisingly all end up coming together for a big finale. I remember really enjoying the 'sand diver' concept and pseudoscience from the first book, and there's a lot more of that here, plus generally some really interesting world building about the sand and the different societies and attitudes. I'm looking forward to filling in the gaps with bits I'd not remembered from the first book, and I hope that one day there may be a Sand Chronicles book 3.
