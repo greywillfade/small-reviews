@@ -9,7 +9,7 @@ tags:
   - review
   - book
   - "2026"
-  - borrowed
+  - owned
 ---
 
 This is a book with layers on layers on layers. It starts out as a fairly straightforward intriguing and mysterious setting (guy works in a 'perfect' society, ferrying people who have lived their full life off to get reborn mentally and physically for another life, weird stuff starts happening), before getting more and more chaotic. The chaos started to turn me off a bit before it later made total sense. It then again shifts a gear with a big reveal, which initially made me think it'd "jumped the shark" as we used to say, but again it pulled it back and everything fit back together again. 

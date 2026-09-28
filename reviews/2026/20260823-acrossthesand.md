@@ -9,6 +9,7 @@ tags:
   - review
   - book
   - "2026"
+  - borrowed
 ---
 
 A LIBRARY book for me! This was the first of my ordered haul to try to counter the ever-increasing expense and lack of book space in my house. I went searching to see if Howey had written anything I'd missed, and it turned out he had. Initially I wasn't sure whether or not I'd read this, as the idea of it blurred into 'Dust' and 'Sand' (two other books from him), but indeed it was a whole new story. It does however follow directly from the events of Sand, which I had read but all the way back in 2014, and no amount of searching for a synopsis fully made me feel like I was remembering enough or getting the full benefit. (Guess what's now next up on my reading pile after digging it out of the depths of a bookshelf...)
