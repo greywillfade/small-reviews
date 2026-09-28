@@ -9,6 +9,7 @@ tags:
   - review
   - book
   - "2026"
+  - owned
 ---
 
 This was a birthday present, and from the description (sci-fi but horror, scary is not really my thing) it wasn't a book I would have chosen for myself. The blurb does describe it as "something something people who like Becky Chambers" (I do), but that is _not_ a comparison I'd make in the slightest. 

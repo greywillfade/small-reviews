@@ -9,6 +9,7 @@ tags:
   - review
   - book
   - "2026"
+  - owned
 ---
 
 After finishing my last book, I had a problem. I was dragging that one out, but even then I had to wait a few days for a new book I thought was coming on pre-order... except it turns out that I'd completely missed the part of the release date that said **2027** 😩

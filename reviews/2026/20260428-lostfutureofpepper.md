@@ -9,6 +9,7 @@ tags:
   - review
   - book
   - "2026"
+  - owned
 ---
 
 I had a different book on my fiction pile and fully intended to swap over and start that one, but in the end I decided to continue my run by this author and I'm glad I did. This one directly (with a bit of a gap) continues the story of the two main characters from the first book, although this one is almost entirely set in 1880s Japan. Some of the characters and details are pulled directly from history, other more fantastical elements are decidedly made up. Thaniel's Japanese ability in the timescales was similarly wildly on the fictional side!

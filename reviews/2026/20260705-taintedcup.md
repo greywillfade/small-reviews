@@ -9,6 +9,7 @@ tags:
   - review
   - book
   - "2026"
+  - owned
 ---
 
 Crashing through books at the moment, in advance of finishing my last one I tried to sort through my backlog list and catch up on award nominees to see what may come next. One of the ones that popped up was the sequel to this, which sounded interesting but I wasn't sure that murder mystery was quite the vibe I was after. On checking with my husband to see if he'd previously bought a totally different book that had popped up and sounded familiar, he brought out this, the sequel, and another book. As he'd actually got through the physical book (a rare occurrance!) and there were two _right here_ I thought I'd give it a shot and I'm glad I did!

@@ -9,6 +9,7 @@ tags:
   - review
   - book
   - "2026"
+  - owned
 ---
 
 I really loved this book, and wasn't expecting to like it that much. I picked it up from my reading list, so it must have had a recommendation from someone to get on there in the first place, and it seemed like an easy read. It was, but I found this being a real page turner with a great world building and some interesting characters, and I found it way more engaging than I was expecting from the blurb alone.

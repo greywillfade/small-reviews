@@ -9,6 +9,7 @@ tags:
   - review
   - book
   - "2026"
+  - owned
 ---
 
 A chunky read which I got through pretty quickly thanks to some hot days indoors and pregnancy-related insomnia. 

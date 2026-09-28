@@ -9,6 +9,7 @@ tags:
   - review
   - book
   - "2026"
+  - owned
 ---
 
 Another bit of Japanese-inspired fantasy, but unlike the Watchmaker of Filigree Street and follow up, this one was disappointing. It was billed as a 'Ghibli-esque' adventure, but in reality was just utterly saccharine levels of interactions and dialogue between the (very superficial) main characters. The world and plot just felt like a series of ideas loosely stiched together, and I just never felt invested or like any of it mattered. 

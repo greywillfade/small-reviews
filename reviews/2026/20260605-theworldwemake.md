@@ -9,6 +9,7 @@ tags:
   - review
   - book
   - "2026"
+  - owned
 ---
 
 I really wish that more sequels included some kind of synopsis or overview. I didn't need it because I flew through them, but the Watchmaker of Filigree series did this _very_ well. Why am I starting with this? Well, because this is another sequel where I read the first one 5 years ago and whilst (even with some online help) I could vaguely remember details and characters, I didn't get the emotional connection that I may have if I'd read them concurrently. Take Manny for example – we get an explanation for his amnesia from book 1, which probably should have been more impactful than it was. Some of the other characters felt very forgettable and backgroundy, and I couldn't remember whether I'd got to know them better before. 
