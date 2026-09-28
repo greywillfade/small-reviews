@@ -1,0 +1,19 @@
+---
+title: "The Incandescent"
+author: "Emily Tesh"
+date: '2026-09-18'
+dateFinished: 18th September 2026
+category: Book
+rating: 3.5
+tags:
+  - review
+  - book
+  - "2026"
+  - borrowed
+---
+
+I flew through the last half of the book because I was going on holiday and desperate to not take two heavy books away/start a new one when I hadn't finished this. Because of the writing style it was very easy to read at speed when I actually put some proper time in. I'd really loved Some Desperate Glory by the same author and was looking forward to this, but whilst it was a fun enough read it wasn't quite up there for me.
+
+This one is set in a (thankfully non-TERFy) magical school, and there's a lot of very detailed and realistic descriptions of school life to set the scene. It's also very British and twee in the descriptions of things like going down the pub and some other language and colloqualisms, which fit the setting quite well. However it does get a bit repetitive when the author repeatedly emphasises some aspects like the main character's busy schedule – I did get the message. 
+
+The main Director of Magic character was a pretty likeable and interesting one, and I did enjoy the reveals about her secrets. However overall the plot played out in quite a predictable way, whether with the main climax, a reveal of a small 'who was behind this stuff', or some of the relationship dynamics. It didn't make it bad, but did feel a bit less satisfying and fluffy for it. 
